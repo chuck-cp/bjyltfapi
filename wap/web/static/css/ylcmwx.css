@@ -1,0 +1,77 @@
+* {margin: 0;padding: 0 }
+table {border-collapse: collapse;border-spacing: 0}
+h1,h2,h3,h4,h5,h6 {font-size: 100%; font-weight: normal;}
+ul,ol,li {list-style: none}
+em,i {font-style: normal}
+img {border: 0;display:inline-block}
+input,img {vertical-align: middle; border:none; }
+a {color: #333;text-decoration: none;-webkit-tap-highlight-color:transparent;}
+input,button,textarea{-webkit-tap-highlight-color:transparent;outline: none;  }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body{ -webkit-overflow-scrolling: touch; font-size: 13px; color: #333; background: #fff;;}
+p{ margin: 0; padding: 0;}
+.clearfix{ display: inline-block; }
+.clearfix:after{ display: block; content: "."; height: 0; line-height: 0; clear: both; overflow: hidden; }
+
+.sy-body{padding: 0;min-width: 300PX;max-width: 640PX;margin: 0 auto;}
+/*安装led的好处*/
+.applyscreen-top{ padding-bottom: 10px;}
+.applyscreen-top img{ width: 100%;}
+.apply-con{ margin: 0 7%; padding: 10px 0; position: relative;}
+.apply-con .content{ padding: 0 10%;}
+.apply-con .content h3{font-size: 18px; font-weight: bold; text-align: center; padding: 10px 0;}
+.apply-con .content p{ font-size: 16px; line-height: 26px;}
+.bordertop-line{ position: absolute; left: 0; top: 0; border: 2px solid #ffa200; border-bottom: none; width: 100%; height: 80px;}
+.borderbottom-line{ position: absolute; left: 0; bottom: 0; border: 2px solid #ffa200; border-top: none; width: 100%; height: 80px;}
+.spplyinstall-btn{ text-align: center; padding: 25px 0;}
+.spplyinstall-btn a{ width:69%; height:40px; line-height: 40px; color: #fff; font-size: 16px; display: inline-block;background:url(/static/image/sy-appscr-btn.png);background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;}
+/*关于我们*/
+.about-us{ padding: 20px 0;}
+.about-us .title{ color: #112b43; font-weight: bold; font-size: 16px; border-bottom: 3px solid #f99731; padding: 8px 0 8px 8px;}
+.about-us .content{ padding:20px;}
+.about-us .content p{ color: #000; font-size: 13px; line-height: 25px; text-indent: 2em;}
+.about-us .content span{ padding: 7px; background: #f99731; font-size: 14px; color: #fff; margin: 10px 0; display: inline-block;}
+/*底部*/
+.web-bottom{ background: #162c42; padding: 30px 0;}
+.web-bottom p{ text-align: center; color: #fff; font-size: 18px; line-height: 26px; padding: 10px 0;}
+.web-bottom p a{display: inline-block; line-height: 40px; color: #fff; background: url(/static/image/download-btn.png); width: 60%; height: 40px;background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;}
+/*合作政策*/
+.cooperate-policy{ padding: 10px 20px;}
+.cooperate-policy h3{ color: #000; font-weight: bold; font-size: 18px; text-align: center; padding: 10px 0;}
+.cooperate-policy p{ font-size: 14px; line-height: 24px; text-indent: 2em;}
+.cooperate-policy p.title{font-weight: bold; padding: 5px 0;}
+.cooperate-policy p a{color: #3776cc;}
+/*合作方式*/
+.mode-of-cooperat{}
+.mode-of-cooperat .top{}
+.mode-of-cooperat .top img{ width: 100%;}
+/*合作方式*/
+.mode-of-cooperat h3{ color: #e76d06; font-size: 18px; text-align: center; }
+.mode-of-cooperat .content{box-sizing: border-box; padding: 30px 20px 40px 30px; font-size: 16px; background-image: url(../images/cooperatebg.jpg);background-size:contain; background-repeat: repeat-y;}
+.mode-of-cooperat .content .con{text-indent: 2em;font-size: 16px; line-height: 24px; padding: 20px 0; }
+.mode-of-cooperat .btn{ text-align: center;}
+.mode-of-cooperat .btn a{background: #4781d0;font-size: 16px; padding: 7px 25px; line-height: 40px; border-radius:5px; text-align: center; color: #fff;}
+/*申请安装*/
+.sq-install{}
+.sq-install .top img{ width: 100%;}
+.sq-install .content{ padding: 10px 25px; line-height: 24px; font-size: 16px;}
+.sq-install .btn{ padding: 30px 10px; text-align: center;}
+.sq-install .btn a{ padding: 10px 30px; background: #e9845b; color: #fdfdfd; font-size: 18px; border-radius:5px}
+/*合作详情一*/
+.detail-cooperate-one{background-image: url(/static/image/cooperatebg.jpg);background-size:contain; background-repeat: repeat-y;}
+.detail-cooperate-one .top img{ width: 100%;}
+.detail-cooperate-one .content{ padding: 10px 15px;}
+.detail-cooperate-one .content h3{ font-size: 16px; font-weight: bold; text-align: center; padding: 10px; line-height: 23px;}
+.detail-cooperate-one .content p{ line-height: 24px;text-indent:2em; padding: 2px 0;}
+.detail-cooperate-one .content p.title{ color: #e76d06; text-indent: 0;}
+.detail-cooperate-one .content .jzxs{display: flex;align-items: center; padding: 10px 0;}
+.detail-cooperate-one .content p.jzxs img{ float: right;}
+.detail-cooperate-one .content p a{ color: #3776cc;}
+.down-app{ text-align: center; padding: 30px 0;}
+.down-app a{ display: inline-block;width:69%; height:40px; line-height: 40px; color: #fff; font-size: 16px; display: inline-block;background:url(/static/image/sy-appscr-btn.png);background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;}
+
+
+.mask{width:100%;background:#000;position:fixed;top: 0px;left:0px;display:none;z-index:100;}
+.ti_img{z-index:110; position: fixed; display: none; width: 100%;left:0; top:0;}
+.ti_img img{ width: 100%;}
+

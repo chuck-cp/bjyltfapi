@@ -1,0 +1,64 @@
+body{ background: #f0f0f0;}
+.sy_selectshop{ padding:10px 3%;}
+.sy_selectshop .title{ font-size: 20px; color: #ff8302;}
+.sy_spsearch{ background: #f8f8f8; padding: 3px; position: relative; margin: 10px 0;}
+.sy_spsearch input{ width:100%; padding-left: 45px; box-sizing: border-box; line-height: 30px; background: #f8f8f8;}
+.sy_spsearch span{ position: absolute; left: 13px; top: 10px;}
+.sy_spsearch span img{ width: 22px; height: 16px; float: left;}
+/*内容*/
+.sy_spsearch_con{ padding: 10px 0 65px 0;}
+.sy_shoplist{cursor: pointer; padding: 10px 0; border-bottom: 1px solid #f2f2f2;height: 20px;position: relative;}
+.sy_shoplist .name{ line-height: 20px; font-size: 15px; margin-right: 25px;}
+.sy_shoplist .unselected{position: absolute; right: 0; top: 10px; width: 20px; height: 20px;}
+.sy_shoplist .selected{background:url(../images/sy_selectshop_selected.png);background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;}
+.sy_shoplist .unselected input{ width: 20px; height: 20px;opacity: 0;}
+.sy_selectsp_btn{ position: fixed; left: 19%; bottom:20px; width: 62%; height: 40px;border-radius:5px; border: none; color: #fff; background: #ff8302; font-size: 15px;}
+.set-grey{ background: #ccc !important; border: 1px solid #ccc !important; box-sizing: border-box; color: #fff !important;}
+.set-grey:after {border-bottom: 1px solid #ccc !important;}
+/*申请安装分店信息*/
+.sy_shopaddress{ cursor: pointer; padding: 5px 0; border-bottom: 1px solid #f2f2f2;height: 75px;position: relative;}
+.sy_shopaddress .listbox{ margin-right: 25px;}
+.sy_shopaddress .listbox p{ line-height: 25px; color: #333;}
+.sy_shopaddress .listbox p:first-child{ font-size: 15px;}
+.sy_shopaddress .unselected{position: absolute; right: 0; top: 37px; width: 20px; height: 20px;}
+.sy_shopaddress .selected{background:url(../images/sy_selectshop_selected.png);background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;}
+.sy_shopaddress .unselected input{ width: 20px; height: 20px;opacity: 0;}
+
+/*选择店铺*/
+.mask{width:100%;background:#000;position:fixed;top: 0px;left:0px;display:none;z-index:100;}
+/* .sy_selshop_class{ padding:15px 10%;} */
+.sy_selshop_class a{ display: block; cursor: pointer;}
+.sy_selshop_class a img{ width: 100%;}
+.sy_selshop_class li:nth-child(3),.sy_selshop_class li:nth-child(4){ padding-top: 14px;}
+
+.sy_selshop_tankan{z-index:101;display: none; background: #fff; background: #fff; border-radius: 8px; width: 75%; position: fixed; left: 50%; top: 50%; margin-left: -37.5%; margin-top: -100px;}
+.sy_selshop_tankan .bgimg{ width: 100%;}
+.sy_selshop_tankan .content{ position: relative;}
+.sy_selshop_tankan .con{ position:absolute;left: 0; top: 50%; margin-top: -65px; width: 100%;padding: 10px; height: 100%;
+color: #fff; line-height: 30px; text-align: center; box-sizing: border-box;}
+.sy_selshop_tankan .con em{ color: #f33d3d;}
+.sy_selshop_tankan .sy_btn{ padding: 12px 5px; overflow: hidden;}
+.sy_selshop_tankan .sy_btn a{ display: block; width: 40%; float: left; margin:0 5%; box-sizing: border-box;
+ text-align: center;height: 35px; line-height: 35px; border-radius: 5px; font-size: 15px;}
+.sy_selshop_tankan .sy_btn a.cancel{border: 1px solid #999;}
+.sy_selshop_tankan .sy_btn a.agree{border: 1px solid #999; background: #ff8302; color: #fff;}
+@media screen and (min-width: 320px) and (max-width: 360px) {
+  .sy_selshop_tankan .con{ font-size: 12px; line-height: 22px;margin-top: -49px;} 
+}
+@media screen and (max-width: 320px) {
+  .sy_selshop_tankan .con{ font-size: 12px; line-height: 18px;margin-top: -41px;} 
+}
+
+/*提示弹框*/
+.sy_waitins_choicetwo{ display:none;z-index:101; width: 75%; position:fixed; left: 50%; margin-left: -37.5%; top: 50%; margin-top: -40px;}
+.sy_waitins_choicetwo .img{ position: relative;}
+.sy_waitins_choicetwo .img .bgimg{ width: 100%;}
+.sy_waitins_choicetwo .img p{text-align: center; color: #fff; font-size: 14px;position: absolute; left: 50%; margin-left: -35%; width: 70%;
+ height:100%;display: flex;justify-content:center;align-items:center;overflow: hidden;}
+.sy_waitins_choicetwo .img span{ position: absolute; right: 10px; top: 10px;}
+.sy_waitins_choicetwo .img span img{ width: 22px; height: 22px; float: left;}
+
+.sy_select_blank{ padding-top: 100px; text-align: center;}
+.sy_select_blank img{ width: 49.2%;}
+.sy_select_blank p{ color: #b2b2b2; padding: 20px 0;}
+.display_none{display: none}

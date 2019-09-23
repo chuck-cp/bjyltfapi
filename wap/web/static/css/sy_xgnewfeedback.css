@@ -1,0 +1,93 @@
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix:after{clear:both;} 
+.clearfix{ 
+    *zoom:1;/*IE/7/6*/
+}
+body{ background: #fff;}
+.sy-newunchecked{padding: 10px 4% 0;border-top: 10px #F0F0F0 solid;padding-top: 0px;}
+.sy-newunchecked .title{ height: 35px; line-height: 35px; text-align: center; background: #e6e6e6; color: #333;}
+.sy-newunchecked .content {}
+.sy-newunchecked .content table{width:100%;border-collapse:collapse; font-size: 14px;}
+.sy-newunchecked .content table td{ font-size:15px;line-height: 25px; padding: 15px 0 5px 0; border-bottom: 1px solid #f2f2f2;}
+.sy-newunchecked .content table td:last-child{font-size:14px; text-align: right;}
+/*上传图片*/
+.sy-newuploadimg{ padding: 0px 0 75px;margin-bottom: 10px;}
+.sy-newuploadimg .tit{ background: #ff8302; color: #fff; color: #fff; font-size: 14px; text-align: center; padding: 5px 10px; margin-bottom: 10px;}
+.sy-new-list{ padding: 7px 0; overflow: hidden;}
+.sy_imgwraper{width: 43.5%;float: left; padding: 5px; background: #f4f4f4; border-radius: 5px;}
+.sy-new-list .upload{position: relative; float: left;}
+.sy-new-list .upload .imgspace{ width: 100%; height:auto; overflow: hidden;}
+.sy-new-list .upload .addimg{ width: 100%; height: 100%; position: absolute; left: 0; top: 0;}
+.sy-new-list .upload .Upload-imginput{width: 100%;height: 100%;position: absolute;left: 0;top: 0;opacity: 0;}
+.sy-new-list .upload .loadimg{ background: #fff; display: none; width: 50px; height: 50px; position: absolute; left: 50%; top: 50%; margin-left: -25px;margin-top: -25px;}
+.sy-new-list .detail{ width: 50%; float: right;}
+
+.sy-new-list .detail .number{ color: #333; font-size: 15px;}
+.sy-new-list .detail .sy_gg_scan{border-bottom: 1px solid #f2f2f2; position: relative;}
+.sy-new-list .detail .sy_gg_scan input{ width: 100%; line-height: 30px; text-align: right; font-size: 14px;}
+.sy-new-list .detail .tip{ text-align:right; padding: 5px 0; color: #ff4302;visibility: hidden;}
+.sy-new-list .detail .scaning{ text-align: right; vertical-align: middle; line-height: 25px; color: #ff8302; font-size: 12px;}
+.sy-new-list .detail .scaning span{ width: 16px;padding-right: 10px;} 
+.sy-new-list .detail .scaning span img{ width: 16px;vertical-align:middle;}
+
+.sy-newinstalled{ position: fixed; left:50%;bottom: 0;margin-left:-25%; width: 50%; height: 44px; border: none; background: #ed8102; color: #fff; font-size: 18px;}
+.sy-installed-ts{ width: 40%; height: 30px; line-height: 30px; text-align: center; background: rgba(0,0,0,0.3); color: #fff; position: fixed;
+left: 50%; top: 50%; margin-left: -20%; margin-top: -15px; border-radius:5px; font-size: 14px; display: none;}
+
+.mask{width:100%;background:#000;position:fixed;top: 0px;left:0px;display:none;z-index:100;}
+/*状况弹框*/
+.sy_waitins_choicetwo{display:none;z-index:101; width: 75%;position:fixed; left: 50%; margin-left: -37.5%; top: 50%; margin-top: -10px;}
+.sy_waitins_choicetwo .img{ position: relative;}
+.sy_waitins_choicetwo .img .bgimg{ width: 100%;}
+.sy_waitins_choicetwo .img p{ text-align: center; color: #fff; font-size: 14px;position: absolute; left: 50%; margin-left: -35%;  width: 70%;height:100%;display: flex;justify-content:center;align-items:center;overflow: hidden;}
+.sy_waitins_choicetwo .img span{ position: absolute; right: 10px; top: 10px;}
+.sy_waitins_choicetwo .img span img{ width: 22px; height: 22px; float: left;}
+/*###############################屏幕安装###################################*/
+/*暂时待没有安装业务*/
+.sy_nowaitins_shop{ text-align: center;}
+.sy_nowaitins_shop .img{ padding-top: 50%;}
+.sy_nowaitins_shop .img img{ width: 43.33%;}
+.sy_nowaitins_shop .txt{ text-align: center; font-size: 14px; padding: 10px 0; color: #b2b2b2;}
+
+.sy_screamins{ padding: 10px 3.33% 10px 3.33%;}
+.sy_screamins .listitem{ display: block; position: relative; height: 86px; padding: 12px 0; border-bottom: 1px solid #f2f2f2;}
+.sy_screamins .listitem .img{ position: absolute; left: 5px; top: 12px;}
+.sy_screamins .listitem .img img{ width: 66px; height: 66px; border-radius: 5px;}
+.sy_scins_txt{ margin:0 80px;}
+.sy_scins_txt p{ line-height: 22px;text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.sy_scins_txt .name{ font-size: 15px;}
+.sy_screamins .cooperate{ width:80px; font-size: 15px; position: absolute; right: 5px; top: 12px; height: 66px;display: flex;justify-content:center;align-items:center;}
+.sy_screamins .cooperate.yeted{ color: #53b225;}
+.sy_screamins .cooperate.nowaited{color: #ff8302;}
+.sy_screamins .cooperate.nopass{ color: #ff4302;}
+.sy_screamins .sbnum{ width:80px; font-size: 15px; position: absolute; right:5px; top: 56px; height: 22px; display: block; text-align: center;color:#ff8302;}
+/*成功 失败 待激活*/
+.sy_sc_sucess .con,.sy_sc_fail .con{ text-align: center; padding-top: 80px;}
+.sy_sc_sucess .con img,.sy_sc_fail .con img{ width: 44%;}
+.sy_sc_sucess .con p{ color: #333; font-size: 15px; text-align: center; padding: 20px 0;}
+.sy_sc_sucess .abtn { position:fixed; width: 61.2%; height: 40px; background: #fff;
+background: #ff8302; font-size: 15px; color: #fff; left:50%; margin-left: -30.6%; bottom:40px; text-align: center;
+ line-height: 40px; cursor: pointer; border-radius: 5px;}
+
+.sy_sc_fail .tip{color: #333; font-size: 15px; text-align: center; padding: 20px 0;}
+.failcode{ background: #f2f2f2; padding: 10px; margin: 10px 3.33%;}
+.failcode .lf{ width: 50%; float: left; line-height: 25px; text-align:left;}
+.failcode .rh{width: 50%; float: left;line-height: 25px;text-align:right;}
+.sy_fail_tip{ color: #999; font-size: 12px; text-align: center; line-height: 22px;}
+.sy_sc_fail .tjbtn{ padding-top: 30px;}
+.sy_sc_fail .tjbtn a{ width: 62%; height: 40px; line-height: 40px; text-align: center; border-radius: 5px;
+background: #ff8302;border: 1px solid #ff8302; font-size: 15px; color: #fff; display:block; margin:0 auto 20px;}
+.sy_sc_fail .tjbtn a.logout{background: #ccc !important; border: 1px solid #ccc !important;}
+.set-grey{ background: #ccc !important; border: 1px solid #ccc !important; box-sizing: border-box; color: #fff !important;}
+.set-grey:after {border-bottom: 1px solid #ccc !important;}
+/* 2018/12/19 改版 */
+.sy-newinstalled{left: 0;margin-left: 0;    width: 100%;}
+.sy-newuploadimg .tit{   color: inherit;background:none;border-left: 4px solid #ff7d09; padding:0 10px;}

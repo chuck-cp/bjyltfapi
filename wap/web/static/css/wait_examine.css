@@ -1,0 +1,48 @@
+/*1px底部边框*/
+.btmbdr{position: relative}
+.btmbdr:after{height: 1px;content: '';width: 100%;border-bottom: 1px solid #ddd;position:absolute;bottom: 1px;right: 0;z-index: 10}
+.yx_body{padding: 0;min-width: 300PX;max-width: 640PX;margin: 0 auto;}
+
+/*待审核内容开始*/
+.yx_shenghenr{ padding: 10px 0 10px 3.3%;margin-bottom: 80px;padding-top: 0;border-top: 10px solid #F0F0F0;}
+.yx_shenghenr .yx_sh_lb{ padding:10px 10px 10px 0; border-bottom: 1px solid #f2f2f2; overflow: hidden; clear:both}
+.yx_shenghenr .yx_sh_lb p{float: left; line-height: 23px; }
+.yx_shenghenr .yx_sh_lb .lf_mc{width: 40%; font-size: 15px;}
+.yx_shenghenr .yx_sh_lb .rl_nr{width: 60%; text-align:right;font-size: 14px; position: relative;text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.yx_shenghenr .yx_sh_lb .rl_nr .txt{ display:block; text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.yx_xx_address{width:70%;padding:10px 0; padding-right:3.3%;line-height: 23px; float:right;border-bottom: 1px solid #f2f2f2; text-align:right;font-size: 14px;}
+.yx_dphoto{ height:30px;width:100%;font-size: 15px;}
+.yx_dphoto_img{ width: 53.4%;position:relative; margin:10px 23.3% 0; overflow: hidden; border-radius: 5px;}
+.yx_dphoto_img .imgspace{ width: 100%; height: auto;}
+.yx_dphoto_img .img{ position: absolute; left: 0; top: 0; width: 100%; height: 100%;}
+
+/*取消下边框*/
+.yx_shenghenr .no_biankuang{ border:0px;}
+
+/*审核结果*/
+.yx_shehe_jg{ margin-top: 10px;}
+.yx_yuanyin{ color:#ff3a00; font-size:12px; width:100%; text-align:center; padding-bottom:5px;}
+
+/*按钮*/
+.yx_shenghe_hui{ /* width: 61.4%; */position: fixed; width: 100%; bottom: 0; display: block; margin:0px auto; height: 40px; background: #ccc; line-height: 40px;text-align: center;  font-size: 15px; color: #fff;}
+.yx_shenghe_cheng{ /* width: 61.4%; */position: fixed; width: 100%; bottom: 0; display: block; margin:0px auto; height: 40px; background: #ff8302; line-height: 40px;text-align: center;  font-size: 15px; color: #fff;}
+.yx_shenghe_green{ /* width: 61.4%; */position: fixed; width: 100%; bottom: 0; display: block; margin:0px auto; height: 40px; background: #ff8302; line-height: 40px;text-align: center;  font-size: 15px; color: #fff;}/*background: #53b225;绿色*/
+
+/*################  安装信息提交成功    ########################*/
+
+.yx_az_xx{ text-align:center; width:100%; margin:69px 0; font-family:"黑体"; overflow:hidden}
+.yx_az_xx span img{ width:162px; height:112px;}
+.yx_az_xx h5{ font-size:16px; color:#333; padding:30px 0 15px 0; font-weight:bold}
+.yx_azcgts{ width:70%; margin:0 auto; font-size:14px; color:#333; line-height:24px;}
+.yx_sccg_time{height:33px;width:208px; margin:0 auto; background:url(../images/tjcg_djs.png) no-repeat center left; background-size:208px 4px; font-size:45px; color:#ff8302; line-height:33px; margin-top:49px;margin-bottom:50px;}
+.yx_djs_time{ display:inline-block; width:80px;}
+
+/*loading*/
+.sy_loadingpage{ height: 140px; position:fixed; width: 100%; text-align: center; top: 50%; margin-top: -70px;}
+.sy_loadingpage img{ width: 15%;}
+.sy_loadingpage p{ color: #ccc; padding-top: 20px;}
+/*详细地址去掉省略号*/
+.syadd_rl_nr{width: 60%;text-align: right;font-size: 14px;position: relative;}
+
+
+

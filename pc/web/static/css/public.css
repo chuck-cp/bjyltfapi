@@ -1,0 +1,65 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:none; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; } 
+
+
+/*公共*/
+.fl{ float:left}
+.fr{ float:right}
+.clearfix:after{ display:block; content:''; clear:both;} 
+.clearfix {zoom:1; }
+.blank10{ height:10px; line-height:1px; font-size:1px; clear:both; overflow:hidden;}
+
+/*火狐自适应高度*/
+.clearff { clear: both;}
+/*换行*/
+.brhh br {display: none;}
+.wrap { width:1200px; margin:0 auto;clear:both;}
+/*IE6双倍间距*/
+.doublejj{display:inline;}
+/*其他*/
+em,i,cite{ font-style:normal}
+.fontw{ font-weight:bold}
+input{outline:none} 
+
+/*头部*/
+.head{ height:80px; background:#555f90; position:relative}
+.head:after{ height:50px; content:''; width:100%; background:#cdd4f6;position:absolute;top:80px;right: 0;z-index:-1}
+
+.yx_logo{ height:80px; background:#38447f; display:inline-block; padding:0 23px;clear:both;display:table-cell;vertical-align:middle;}
+.yx_logo img{ vertical-align:middle}
+
+/*左侧菜单*/
+.yx_left_menu{ width:300px; background:#98a8f0; border-right:1px #cdd4f6 solid; padding:30px 0;}
+
+/*退出*/
+.yx_left_menu a {color:#fff;}
+.yx_left_menu a:hover { color:#555f90; }
+
+/*用记信息*/
+.yx_tcdl{ text-align:center; font-size:14px; color:#fff;}
+.yx_photo{ width:100px; height:100px;-webkit-border-radius:25em;-moz-border-radius:25em;border-radius:25em; background:#fff; margin:22px auto 20px auto;}
+.yx_photo img{ width:100px; height:100px;-webkit-border-radius:25em;-moz-border-radius:25em;border-radius:25em;}
+.yx_name{ font-size:18px; font-family:"黑体"; color:#fff; text-align:center}
+
+/*菜单内容*/
+.yx_menu_nr{ width:280px;margin:0 auto; margin-top:50px;}
+.yx_menu_nr li{ height:70px;line-height:70px;}
+.yx_menu_nr li span{display:inline-block; padding:0 23px 0 23px;}
+.yx_menu_nr li span img{ line-height:70px; vertical-align:middle}
+.yx_gaoliang{height:70px;-moz-border-radius:4px; -webkit-border-radius:4px;border-radius:4px; background:#b4beee}
+
+/*右侧菜单*/
+.yx_right_menu{width:888px; padding-top:50px; border-right:1px #cdd4f6 solid}

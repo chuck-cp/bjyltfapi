@@ -1,0 +1,94 @@
+
+* {margin: 0;padding: 0 }
+table {border-collapse: collapse;border-spacing: 0}
+h1,h2,h3,h4,h5,h6 {font-size: 100%; font-weight: normal;}
+ul,ol,li {list-style: none}
+em,i {font-style: normal}
+img {border: 0;display:inline-block}
+input,img {vertical-align: middle; border:none; }
+a{color: #333;text-decoration: none;-webkit-tap-highlight-color:transparent; cursor: pointer;}
+input,button,textarea{-webkit-tap-highlight-color:transparent;outline: none;  }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body{ -webkit-overflow-scrolling: touch; font-size: 13px; color: #333;}
+p{ margin: 0; padding: 0;}
+.sy-body{padding: 0;min-width: 300PX;max-width: 640PX;margin: 0 auto;}
+/*顶部导航*/
+.sy-header{height: 44px; background: #fff; box-sizing: border-box; max-width: 640px; font-size: 16px;line-height: 44px;text-align: center; padding:0 4%; position:fixed; width: 100%;}
+.sy-header .goback{ width: 13px; display: block; position: absolute;}
+.sy-header .goback img{ width: 100%;}
+.sy-top-blank{ height: 44px;}
+.sy-installed-ts{ width: 60%; height: 30px; line-height: 30px; text-align: center; background: rgba(0,0,0,0.3); color: #fff; position: fixed;
+    left: 50%; top: 50%; margin-left: -25%; margin-top: -15px; border-radius:5px; font-size: 14px; display: none; z-index: 100;}
+/*正在提交提示*/
+.yx_zztj{padding:10px 0;position:absolute;z-index:101; width: 50%; height: 30px; line-height: 30px; text-align: center; background: rgba(0,0,0,0.3); color: #fff; position: fixed;
+    left: 50%; top: 50%; margin-left: -25%; margin-top: -15px; border-radius:5px; font-size: 14px; display: none;}
+.yx_zztj img{width:30px; height: 30px;  margin-left: 10px;}
+.modal-open{position: fixed;width: 100%;}
+.zztj_zz{width:100%;position:absolute;top: 0px;left:0px;display:none;z-index:100;}
+.progress-bar{ background: #b3a6c4; position: absolute; left: 0; bottom: 0; height: 5px;}
+/*苹果手机input框内字体小*/
+input::-webkit-input-placeholder { /* WebKit browsers */ 
+color: #b2b2b2; font-size: 13px;
+} 
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+color: #b2b2b2;font-size: 13px; 
+} 
+input::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+color: #b2b2b2;font-size: 13px; 
+} 
+input:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+color: #b2b2b2; font-size: 13px;
+}
+.sc_fail_ts{ position: absolute; left: 0; top: 10px; color: #c03; text-align: center; width: 100%;}
+/*图片居中显示*/
+.sy_bgzsytp{ position: absolute; left: 0; top: 0; width: 100%; height: 100%;}
+
+.yx_lan{ color:#1664ce; font-weight:bold}
+
+/*正在加载*/
+.sy_loadingpage{ height: 140px; position:fixed; width: 100%; text-align: center; top: 50%; margin-top: -70px;}
+.sy_loadingpage img{ width: 15%;}
+.sy_loadingpage p{ color: #ccc; padding-top: 20px;}
+/*置灰*/
+.set-grey{ background: #ccc !important; border: 1px solid #ccc !important; box-sizing: border-box; color: #fff !important;}
+.set-grey:after {border-bottom: 1px solid #ccc !important;}
+
+.mask{width:100%;background:#000;position:fixed;top: 0px;left:0px;display:none;z-index:100;}
+/*确定弹框*/
+.sy_examin_panel{display:none; z-index:101; padding: 20px 0; border-radius: 5px; background: #ff8608; width: 75%;position:fixed; left: 50%; margin-left: -37.5%; top: 40%;}
+.sy_examin_panel .img{ position: relative;}
+.sy_examin_panel .img .examcon{ text-align: center; color: #fff; font-size: 14px;overflow: hidden;}
+.sy_examin_panel .img .examcon .con{ padding:0 10% ; width: 80%; text-align: center;}
+.sy_examin_panel .img .examcon .btn{ padding: 15px 0  0; }
+.sy_examin_panel .img .examcon .btn a{text-align: center; display: inline-block; border-radius:5px;padding:3px 20px;color:#fff; background:#ff8d17; border: 1px solid #fff;}
+.sy_examin_panel .img span{ position: absolute; right: 10px; top: 10px;}
+.sy_examin_panel .img span img{ width: 22px; height: 22px; float: left;}
+
+.screen_text_list { width: 300px;line-height:25px}
+/*视频播放协议*/
+.sy_install_protocol{display: none; width: 94%; padding: 10px 0; box-sizing: border-box; height: 94%;background:rgba(220,220,220,1); position:fixed; left: 3%; top: 3%; z-index: 99;}
+.sy_dzmask{display: none; position:fixed; top: 0; left: 0; z-index: 12; width: 100%; height: 100%; background-color: rgba(0,0,0,.4);}
+.sy_con_scroll{ height:100%;overflow-y: scroll; padding: 0 10px;}
+.sy_install_protocol .title{ text-align: center; font-size: 18px; color: #333; padding: 10px;}
+.sy_install_protocol .content{ color: #666; font-size: 14px; line-height: 26px; padding-bottom: 50px;}
+.sy_install_btn{ position: fixed;left: 0; bottom:4%; left: 5%; width: 90%;}
+.sy_install_btn button{ width: 40%; height: 40px; line-height: 40px; display:inline-block; border: 1px solid #151515; margin: 0 5% 5px; float: left;}
+.sy_install_btn button:first-child{ background:rgba(220,220,220,0.9); border: 1px solid #151515; color: #333;}
+.sy_install_btn button:last-child{ background: #ee8303; color: #fff; border: 1px solid #ee8303;}
+.upload .addimg{width: 85% !important;}
+/*视频安装协议*/
+
+/* 结款方式 */
+.btns_p{text-align: center;position: absolute;bottom: 0;width: 100%;}
+.cancel_btn,.confirm_btn{width: 50%; height: 40px; border: 0;font-size: 16px;}
+.cancel_btn{background: #CCCCCC;color: #FFFFFF;}
+#userResult{color: #333;font-size: 14px;}
+.right_arrow{font-size: 12px;}
+.pay_sel{display: none;position: fixed; top: 0; left: 0; right: 0; bottom: 0; height: 100%; width: 100%; background: rgba(0,0,0,.3);z-index: 99}
+.pay_label{margin-bottom: 4%; display: inline-block; width: 100%;}
+.pay_sel_box{position: relative; width: 84%; height: 130px; background: #fff; margin: 0 auto; margin-top: 58%; border-radius: 10px; overflow: hidden;}
+.pay_sel_ul{background: #F0F0F0;}
+.pay_sel_ul li{padding: 4%; padding-bottom: 0; margin-bottom: 1px; background: #fff; overflow: hidden;}
+.pay_val{margin-left: 4%; margin-right: 4%;}
+.pay_sel_input{ float: right;}
+.confirm_pay{width: 50%; height: 40px; border: 0; font-size: 16px;background: #ffab34; color: #333333;}

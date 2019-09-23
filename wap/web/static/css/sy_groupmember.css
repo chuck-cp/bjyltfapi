@@ -1,0 +1,37 @@
+/*========================================安装小组设置====================================*/
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix:after{clear:both;} 
+.clearfix{ 
+    *zoom:1;/*IE/7/6*/
+}
+body{ background: #fff;}
+/*成员列表*/
+.sy_gpmember{ padding: 10px 3.33% 10px;}
+.sy_gpmember h3{ font-size: 15px;}
+.sy_gpmember_box{ display: block; position: relative; height: 66px; padding: 12px 0; border-bottom: 1px solid #f2f2f2;}
+.sy_gpmember_box .img{ position: absolute; left: 0; top: 12px;}
+.sy_gpmember_box .img img{ width: 66px; height: 66px; border-radius: 5px;}
+.sy_waitin_txt{ margin:0 80px;}
+.sy_waitin_txt p{ line-height: 22px;text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.sy_waitin_txt .name{ font-size: 15px;}
+.sy_waitin_txt .xqq{ color: #999; font-size: 12px;}
+
+.sy_waitin_corpra{ position: absolute; right:0; top: 15px; width: 75px;text-align: center;}
+.sy_waitin_corpra p{ line-height: 22px;}
+.sy_waitin_corpra .screen{ color: #ff8302; font-size: 15px; font-weight: bold;}
+.sy_waitin_corpra .date{ color: #ff8302; font-size: 15px;}
+.sy_childmember{ padding:10px 0;}
+.sy_memberblank{ color: #b2b2b2; font-size: 14px; text-align: center; padding-top: 60px;}
+
+/*正在加载*/
+.sy_loadingpage{ height: 140px; position:fixed; width: 100%; text-align: center; top: 50%; margin-top: -70px;}
+.sy_loadingpage img{ width: 15%;}
+.sy_loadingpage p{ color: #ccc; padding-top: 20px;}

@@ -1,0 +1,63 @@
+/*标签初始化*/
+* {margin: 0;padding: 0 }
+table {border-collapse: collapse;border-spacing: 0}
+h1,h2,h3,h4,h5,h6 {font-size: 100%; font-weight: normal;}
+ul,ol,li {list-style: none}
+em,i {font-style: normal}
+img {border: 0;display:inline-block}
+input,img {vertical-align: middle; border:none; }
+a {color: #333;text-decoration: none;-webkit-tap-highlight-color:transparent;}
+input,button,textarea{-webkit-tap-highlight-color:transparent;outline: none;  }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body{ background: #fff; -webkit-overflow-scrolling: touch; color: #333; font-size: 14px;min-width: 300PX;max-width: 640PX; margin: 0 auto; font-family: '微软雅黑';}
+/*头部*/
+.header{ height: 44px; z-index: 99; border-bottom: 1px solid #e6e6e6; position:fixed; left: 0; top: 0; width: 100%; background: #fff;}
+.header a{ width: 22px; height: 22px; position: absolute; left: 10px; top: 11px;}
+.header a img{width: 22px; height: 22px;}
+.header h3{ text-align: center; line-height: 44px; font-size: 16px;}
+/*.sy_nbbox{ padding-top: 44px;}*/
+/*安装业务列表*/
+.sy_nblist{ padding:10px 13px; border-bottom: 1px solid #e6e6e6;}
+.sy_nblist a{ display: block;cursor:pointer;}
+.sy_nblistbox{ position: relative; height: 90px;}
+.sy_nblistbox .img{width: 90px; height: 90px; margin-right: 10px; position: absolute; left: 0; top: 0;}
+.sy_nblistbox .img img{width: 90px; height: 90px;}
+.sy_nblistbox .txt{ margin:0 80px 0 100px; padding: 10px 10px 0;}
+.sy_nblistbox .txt p{ line-height: 25px;color:#808080; font-size: 14px;text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.sy_nblistbox .txt p:first-child{ color:#333;}
+.sy_nblistbox .status{ position: absolute; right:0; top: 30px; color: #ea9061; font-size: 16px;}
+/*选择申请安装*/
+.sy_nbsctlist{ padding: 40px 10.67% 0;}
+.sy_nbsctlist a{ display: block;}
+.sy_nbsctlist a img{ width: 100%;}
+/*申请安装成功*/
+.sy_nbapplysuc{ padding: 100px 16.8% 60px;}
+.sy_nbapplysuc .img{text-align: center;}
+.sy_nbapplysuc .img img{ width: 110px; height: 110px;}
+.sy_nbapplysuc .txt{ color: #ed8202; font-size: 20px; text-align: center; padding: 10px 0;}
+.sy_nbbtn{padding: 10px 10.67% 0;}
+.sy_nbbtn a{ display: block; color: #fff; height: 46px; line-height: 46px; font-size: 20px; text-align: center;  margin-bottom: 20px;}
+.sy_nbbtn a.continu{background: #ed8102;border-bottom: 1px solid #d77350;}
+.sy_nbbtn a.otherday{ background: #ffb864;border-bottom: 1px solid #ffa53b;}
+/*遮罩*/
+.mask{width:100%;background:#000;position:fixed;top: 0px;left:0px;display:none;z-index:100;}
+.sy_nbtkpanel{display: none; position: fixed; width: 70%;min-height: 100px; padding: 20px 0; z-index:101;left:15%; top: 50%; margin-top: -50px; border-radius: 10px; background: #fff; border: 1px solid #ed8102;}
+.sy_nbtkpanel .txt{ padding: 20px 0 30px 0; text-align: center; font-size: 14px; color: #333;}
+.sy_nbtkpanel .lik{ text-align: center;} 
+.sy_nbtkpanel .lik a{ padding: 5px 10px; background: #ED8102; color: #fff; border-radius: 5px;}
+
+/*暂时待没有安装业务*/
+.sy_nowaitins_shop{ text-align: center;}
+.sy_nowaitins_shop .img{ padding-top: 50%;}
+.sy_nowaitins_shop .img img{ width: 43.33%;}
+.sy_nowaitins_shop .txt{ text-align: center; font-size: 14px; padding: 10px 0; color: #b2b2b2;}
+.listitem a{ display: block}
+/*正在加载*/
+.sy_loadingpage{ height: 140px; position:fixed; width: 100%; text-align: center; top: 50%; margin-top: -70px;}
+.sy_loadingpage img{ width: 15%;}
+.sy_loadingpage p{ color: #ccc; padding-top: 20px;}
+
+/* 新版内部安装 */
+.zhj_nbselected{width: 93%; margin: 0 auto;padding-bottom: 20px;}
+.sy_nbsctlist{padding: 0;padding-top: 13px;}
+.zhj_body{background: #f0f0f0;}

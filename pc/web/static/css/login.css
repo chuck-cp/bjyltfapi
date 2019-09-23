@@ -1,0 +1,42 @@
+body{ text-align: center}
+.yx_dl_bj{ background:url(../images/logo_bj.jpg) no-repeat top center; background-size: 100% 100%;width:100%;}
+.yx_dl_xx{ width:760px; margin:0 auto;padding-top:10%;}
+.yx_ledp_ad{ margin:33px 0 64px 0}
+/*用户名密码*/
+.yx_mc_mima{width:750px; height:100px;}
+.yx_mc_mima_bj{ background:#fff; display:block; height:100px;width:750px; position:absolute; z-index:1;-moz-border-radius:4px; -webkit-border-radius:4px;border-radius:4px; filter:alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7; opacity: 0.7;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=70);}
+.yx_dlxx_mc_mm{height:75px;width:745px; padding:15px 0 0 5px; position:absolute; z-index:10; text-align:left}
+
+.yx_input_bj{width:336px; height:51px;-moz-border-radius:4px; -webkit-border-radius:4px;border-radius:4px; background:#fff; float:left; margin:0 10px; padding:10px 0 0 14px;}
+.yx_input_bj span{display:inline-block; float:left; padding-right:10px;}
+.yx_dl_input{ height:36px; line-height:36px; width:297px; color:#000; border:0px;}
+.yx_dl_Submit{ width:170px; height:68px; background:#9cacf6; border:0px; text-align:center; cursor:pointer;}
+/*版权*/
+.yx_banquan{ font-size:14px; color:#fffefe; font-family:"黑体";padding-top:250px; padding-bottom:24px;}
+.blank5{ height:5px; line-height:1px; font-size:1px; clear:both; overflow:hidden;}
+.yx_dlerror{ text-align: right; color:#ff0101; font-size: 14px; padding-right:18px; clear: both }
+.yx_mc_mima_bj_error{border:1px #ff0101 solid}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

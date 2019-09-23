@@ -1,0 +1,70 @@
+/*右侧菜单*/
+.yx_right_menu{padding-top:0px;}
+
+/*##################添加产权证明###################*/
+/*标题*/
+.yx_cqgl_tjbj{ margin:12px 0 0 10px; overflow:hidden; height:38px;}
+/*添加产权证明*/
+.sy_upload-p{ float:left; padding:5px; color:#fff; font-size: 14px; background: #d5a64b; position: relative;}
+.Upload-imginput{ position: absolute; width: 100px; height: 100px;filter:alpha(opacity=0);-moz-opacity:0;-khtml-opacity: 0; opacity: 0;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);}
+.sy_upimg_list li{ margin:17px 20px 0px; width: 180px; height:210px; float: left;}
+.yx_cq_img img{ width:180px; height: 150px;}
+.yx_xs_cqbt{ width:180px; line-height: 25px;text-overflow:ellipsis; white-space:nowrap; overflow:hidden; text-align: center; background:#fff;}
+/*产权 编辑 标题*/
+.yx_cqbianji{ width:70px;color:#fff; font-size: 14px;background:#555f90; line-height:26px; height:26px; margin-left:10px; cursor:pointer}
+.yx_cqbianji img{ margin:0px 5px  -2px 10px;}
+.yx_pldel{ width:100px; color:#fff; font-size: 14px;background:#58a94b; line-height:26px; height:26px; margin-left:10px; cursor:pointer; display:none}
+.yx_pldel img{ margin:0px 5px  -2px 10px;}
+
+/*上传产权图片列表*/
+.yx_upimg_list{}
+/*列表详情*/
+.yx_cq_lb_xq{ width:167px; float: left;margin:20px 5px 0 5px;position:relative; height: 204px;}
+.yx_cq_img img{width:167px; height: 150px;}
+.yx_cq_name{ text-align: center; height: 20px; line-height: 20px;}
+.yx_cq_name_xg{text-align: center; height: 20px; line-height: 20px; display:none}
+
+/* 产权 标题编辑 */
+.YX_bjcqbt{width:165px; height: 20px; line-height: 20px;background:#daddea; border:none; text-align: center; display:block }
+/* 产权 编辑*/
+.yx_bjcq_zt{margin-top:10px; padding-left:32px; display:none}
+/* 删除产权 */
+.yx_del_cqimg{height:20px; line-height:20px; color:#c54242; font-size:14px; cursor:pointer;}
+.yx_del_cqimg img{ margin-bottom:-5px; padding-right:5px;}
+.yx_del_cqimg a {color:#c54242;}
+.yx_del_cqimg a:hover { color:#c54242; text-decoration:underline; }
+/* 产权 保存 */
+.yx_cq_bc{color:#fff; font-size: 14px;background:#58a94b; height:20px; line-height:20px;  margin-left:10px; cursor:pointer; display:block; padding:0 5px;}
+.yx_cq_bc img{ margin:0px 5px  -2px 0px;}
+
+/* 产权 选择编辑 */
+.yx_xz_bjcq{ position:absolute; top:5px; left:5px; display:none}
+.yx_xz_bjcq_input{ width:20px; height:20px; position:absolute; z-index:10;opacity: 0; }
+.yx_xz_bjcq_false{width:20px; height:20px; background:url(../images/xuan_kuan.png); display:block;position:absolute; top:0px; left:0px;}
+.yx_xz_bjcq_true{width:20px; height:20px; background:url(../images/xuan_kuan_gl.png); display:block;position:absolute; top:0px; left:0px;}
+
+/*取消提示框*/
+.sy_tctskuan{background:#fff;width:598px; height:248px;border:1px #8e9cde solid;position:fixed; top:180px; z-index:15; display:none;}
+.sy_tctskuan_bt{ height:49px; line-height:49px; color:#fff; background:#838fca;font-size:18px; font-family:"黑体"; padding:0 20px;}
+.sy_scttsk_nr{ text-align:center;font-size:18px;color:#333333; padding-top:40px;}
+.sy_tctskuan_an{ text-align:center; padding:32px 0px}
+.sy_tctskuan_an button{ margin:0 25px; float:left; width:230px; height:60px;font-size:24px; font-family:"黑体"; color:#fff; border:none;  }
+.sy_tjcq{background:url(../images/tjcq.png);}
+.sy_qxcq{background:url(../images/qxcq.png);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

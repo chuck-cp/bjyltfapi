@@ -1,0 +1,77 @@
+body{font-size: 14px;min-width: 1200px;color: #323232;font-family: "microsoft yahei";}
+a{text-decoration:none;}
+.layout{width: 1200px;margin: 0 auto;}
+.block_img{display: block;}
+.indent2{text-indent: 2em;}
+.pos_rel{position: relative;z-index: 99\9;}
+/*  */
+.characteristic,.superiority,.brand_cooperate,.contact_us{padding-top: 60px;}
+.characteristic,.superiority{padding-bottom: 68px;}
+.contact_us{padding-bottom: 50px;}
+/* head */
+.head{height: 100px;background: #202833;position: fixed;top: 0;    width: 100%;    z-index: 999;min-width: 1200px;}
+.logo_box{float: left;width: 440px;}
+.operate{float: right;list-style: none;}
+.operate li{float: left;}
+.operate a{color: #FFFFFF; font-size: 20px; width: 140px; display: inline-block; text-align: center; height: 92px; line-height: 100px;margin-right: 30px;}
+.operate a:hover{border-bottom: 8px solid #c7471f;}
+.operate .a_cur{border-bottom: 8px solid #c7471f; }
+.index_top{cursor: pointer;}
+.logo_img{margin-top: 22px;}
+/* head_shadow */
+.head_shadow{height: 100px;}
+/* slide */
+.j_slider li{height: 650px;background: center top no-repeat;}
+.bx-wrapper{box-shadow:none;border:0;background:transparent;margin-bottom:0}
+.bx-wrapper .bx-pager.bx-default-pager a{width: 16px;height: 16px;border-radius: 16px;background: url(/static/new_images/pagers.png) ;margin: 0 12px;}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{    bottom: 140px;z-index: 99;}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus { background: url(/static/new_images/pager_active.png) ;}
+
+/* about_us */
+.about_us{height: 370px;}
+.about_box{overflow: hidden;position: absolute; bottom: -292px; background: #fff; box-shadow: 0 16px 16px rgba(0,0,0,0.1);}
+.about_pic,.about_con{float: left;}
+.about_pic{width: 300px;}
+.about_con{width: 784px; padding-left: 58px; padding-top: 50px; padding-right: 58px;}
+.about_con .indent2{line-height: 30px;color: #666666;}
+.about_us_tt{font-size: 30px;}
+.about_us_tt2{font-size: 30px;color: #cccccc;margin-top: 14px; margin-bottom: 26px;}
+.about_img{margin-bottom: 30px;}
+/* characteristic */
+.characteristic{background: url(/static/new_images/characteristic_bg.jpg) left top no-repeat;height: 712px;}
+.superiority_tt2{font-size: 30px;text-align: center;color: #dfdfdb;margin-top: 30px;}
+.characteristic_ul{list-style: none;padding-top: 12px;}
+.characteristic_ul li{float: left;position: relative;}
+/* superiority */
+.superiority{background: url(/static/new_images/superiority_bg.jpg) left top no-repeat;}
+.superiority_tab{width: 1200px;background: #FFFFFF\9;}
+.superiority_tt{font-size: 36px;color: #FFFFFF;font-weight: bold;text-align: center;}
+.down_arrows{text-align: center;margin-top: 30px;margin-bottom: 30px;}
+.superiority_tab tr:nth-child(even){/*偶数行*/ background: #ffffff; }
+.superiority_tab tr:nth-child(odd){/*奇数行*/ background: #efeff4; }
+.tab_con td{padding-left: 50px;  padding-top: 14px;padding-bottom: 14px;line-height: 18px;}
+.tab_con td:last-child{padding-left: 30px; padding-right: 22px;}
+.tab_tt{height: 60px; font-size: 18px;}
+.tab_tt th{background:#ba4539 ;color: #e5c3c0;    font-weight: normal;padding-top: 20px;}
+.left_tt{background: url(/static/new_images/tt_xian.png) center bottom no-repeat #222f42;color: #bcbec2;font-size: 18px;text-align: center;    padding-left: 0 !important;vertical-align: middle;}
+
+/* Brand_cooperate */
+.brand_cooperate{background: #f0f0f0;padding-bottom: 40px;}
+.brand_img{overflow: hidden;}
+.brand_img img{float: left;}
+.brand_center {overflow: hidden;}
+.brand_center div{float: left;width: 400px;}
+/* contact_us */
+.contact_us{overflow: hidden;background: #222f42;border-bottom: 1px #38475e solid;}
+.contact_us_lf{float: left;width: 600px;color: #FFFFFF;line-height: 24px;color: #bcbec2;}
+.contact_underlines{display: block;margin-bottom: 14px;}
+.contact_us_rt{float: right;overflow: hidden;color: #FFFFFF;text-align: center;}
+.wexin_public_box{width: 130px;float: left;    margin-right: 50px;}
+.down_app_box{width: 130px;float: left; margin-right: 60px;}
+.contact_tt,.contact_tt2{font-size: 24px;font-weight: normal;}
+.contact_tt{color: #FFFFFF;}
+.contact_tt2{color: #49515f;margin-top: 18px; margin-bottom: 18px;}
+.saoma{margin-top: 18px;}
+/* copyright */
+.copyright{height:40px ;background: #222f42;text-align: center;padding-top: 30px;padding-bottom: 30px;line-height: 24px;color: #8c9097; }
+.copyright a{color: #8c9097;}

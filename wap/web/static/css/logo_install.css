@@ -1,0 +1,217 @@
+/*1px底部边框*/
+.btmbdr{position: relative}
+.btmbdr:after{height: 1px;content: '';width: 100%;border-bottom: 1px solid #ddd;position:absolute;bottom: 1px;right: 0;z-index: 10}
+.idcardzfti{ position: absolute; width: 100%; top: 75%; left: 0; color: #d0d0d0; text-align: center;}
+/*############ 登录 ####*/
+/* logo */
+.yx_logo{ width:100%; text-align:center; height:130px;padding-top:50px}
+.yx_logo p{ width:75px; height:75px; margin:0 auto;line-height:20px}
+.yx_logo img{ width: 100%; height:100%}
+/* 定单号 */
+.yx_denglu{ width:80%; margin:0 auto}
+.yx_denglu dl{ margin-bottom:15px;position:relative;}
+/* 输入框 */
+.yx_srnr{width:100%; height:40px;font-size: 13px; color: #333; }
+.yx_denglu dl dd{position: relative}
+.yx_denglu dl dd:after{height: 1px;content: '';width: 100%;border-bottom: 1px solid #333333;position:absolute;bottom: 1px;right: 0;z-index: 10}
+
+/* 输入框 提示 */
+.sy_addtip{color:#e32929;visibility:hidden;}
+/* 按钮 */
+.yx_djdl{width:60%; margin:0 auto; margin-top:65px}
+.yx_submit{ background:#ed8102; width:100%;height:45px; line-height:45px; text-align:center; color:#fff; border:0px;position: relative}
+.yx_submit:after{height: 1px;content: '';width: 100%;border-bottom: 1px solid #d77350;position:absolute;bottom: 1px;right: 0;z-index: 10;}
+
+
+
+/*############ 申请安装屏幕 ####*/
+/* 申请信息 */
+.yx_spxx{ background:#e6e6e6; width:92%; padding:0 4%; margin-top:-1px; overflow:hidden}
+.yx_spxx h5{ height:44px; line-height:44px; padding-left:2px;}
+.yx_spxx dl{height:40px; line-height:40px; background:#fff;position: relative; clear:both}
+.yx_spxx dl :after{height: 1px;content: '';width: 100%;border-bottom: 1px solid #e6e6e6;position:absolute;bottom: 1px;right: 0;z-index: 10}
+
+.yx_spxx dl dt{ width:32%; float:left; padding-left:3%;}
+.yx_spxx dl dd{ width:65%;float:left;height:35px; line-height:35px;}
+/* 输入验证码 */
+.yx-sendyzm{ position:relative}
+.yx-sendyzm .send-yzm{ position:absolute; top:0px; right:10px; color:#ed8202; background:#fff; border:0px; line-height:44px; height:44px;}
+
+/* 安装地址 */
+.yx_spxx dl.yx_anzdz { height:80px;}
+.yx_dzxq{position: relative; width:98%;}
+.yx_dzxq:after{height: 1px;content: '';width: 100%;border-bottom: 1px solid #e6e6e6;position:absolute;bottom: 1px;right: 0;z-index: 10}
+.yx_dpxx{ position:relative}
+.yx_dpxx cite{ position:absolute; top:0px; right:10px; font-style:normal}
+
+/* 上传 */
+.yx_shangc{ background:#fff; padding:10px 8px;overflow:hidden}
+.yx_sc_img{ clear:both; margin-bottom:15px;}
+.yx_sc_img:after{
+    content: "";
+    display: block;
+    width: 50%;
+    clear: both; /*相当于清除浮动*/
+}
+.yx_scbt{ margin-bottom:6px; height:25px; line-height:25px;}
+.yx_scimg_sl{ margin-left:5px;}
+.yx_scimg_sl img{ width:13px; height:13px; margin-right:5px;}
+
+.yx_sc_img_lt{width:43.5%;float:left;margin-right:5px;text-align:center }
+.yx_sc_img_lt img{width:100%; margin-bottom:1%;}
+.yx_sc_img_lt .yx_djck_big{ font-size:10px; color:#999999}
+
+
+/* 按钮 */
+.yx_tj{width:60%; margin:35px auto;}
+.yx_tjsc_h{ background:#b3b3b3; width:100%;height:45px; line-height:45px; text-align:center; color:#fff; border:0px;position: relative}
+.yx_tjsc_h:after{height: 1px;content: '';width: 100%;border-bottom: 1px solid #999999;position:absolute;bottom: 1px;right: 0;z-index: 10}
+
+.yx_tjsc_c{ background:#ed8202; width:100%;height:45px; line-height:45px; text-align:center; color:#fff; border:0px;position: relative}
+.yx_tjsc_c:after{height: 1px;content: '';width: 100%;border-bottom: 1px solid #da7250;position:absolute;bottom: 1px;right: 0;z-index: 10}
+
+/* 弹出 */
+.mask{width:100%;background:#000;position:absolute;top: 0px;left:0px;display:none;z-index:100;} 
+.yx_tcylimg{position: absolute; z-index: 101; width:90%; top:20%;left:0px; padding:0 5%; color:#fff; display:none;}
+.yx_tcylimg h5{ height:24px; line-height:24px;}
+.yx_sm_nr{ line-height:22px;letter-spacing:1px;}
+
+.yx_shili{ text-align:center; line-height:20px; line-height:20px; margin-top:10px; clear:both}
+.yx_sz_img{ width:96%; margin:33px auto;}
+.yx_sz_img img{ width:100%; height:100%}
+
+.yx_guanbi{ text-align:center}
+.yx_gbylan{width:80%; height:42px; background:none; border:1px #fff solid; color:#fff}
+
+/* 上传 */
+.yx_shangc .upload{ width: 44%; border: 1px solid #e6e6e6; box-sizing: border-box; position: relative; float: left; margin: 0 3%;}
+.yx_shangc .upload .imgspace{ width: 100%; height:auto; overflow: hidden;}
+.yx_shangc .upload .addimg{ width: 100%; height: 100%; position: absolute; left: 0; top: 0;}
+.yx_shangc .upload .Upload-imginput{width: 100%;height: 100%;position: absolute;left: 0;top: 0;opacity: 0; cursor: pointer;}
+
+
+
+/*选择地区弹层*/
+.express-area-box { position: absolute; bottom: -100%; left: 50%; z-index: 15; width: 320px; margin-left: -160px; background-color: #fff; color: #4d525d; display:none }
+.express-area-box header { position: relative; border-top: 1px solid #e2e2e2; border-bottom: 1px solid #e2e2e2; }
+.express-area-box header h3 { margin: 0 1.675rem; text-align: center; font-size: .8rem; line-height: 2.25rem; }
+.express-area-box header .back,
+.express-area-box header .close { position: absolute; top: 0; width: 1.675rem; height: 2.25rem; }
+.express-area-box header .back { display: none; left: 0; background: url(/static/image/back.png) no-repeat center;   background-size: .45rem .75rem; }
+.express-area-box header .close { right: 0; background: url(/static/image/close-area.png) no-repeat center; background-size: .675rem .675rem; }
+.express-area-box article { height: 210px; overflow-y: scroll; }
+.area-list li { padding: .5rem; border-bottom: 1px solid #e2e2e2; text-align: justify; font-size: .7rem; line-height: 1.25rem; }
+@media (min-width: 721px) and (max-width: 1300px) {
+	.express-area-box { position: fixed; left: 0; width: 100%; margin-left: 0; }
+}
+@media (max-width: 720px) {
+	.express-area-box { position: fixed; left: 0; width: 100%; margin-left: 0; }
+}
+/*遮罩层*/
+.dzmask { display: none; position: absolute; top: 0; left: 0; z-index: 12; width: 100%; height: 100%; background-color: rgba(0,0,0,.2); }
+@media (max-width: 720px) {
+	.mask { position: fixed; }
+}
+
+.modal-open{ position: fixed; width: 100%;}
+input[type=button], input[type=submit], input[type=file], button { cursor: pointer; -webkit-appearance: none; }
+
+.yx_spxx dl.tuijianren{ line-height:20px;}
+.yx_spxx dl.tuijianren span{ display:block}
+
+/*开关机时间限制*/
+.riqi-select{ position:fixed;; left: 0; bottom:-999px;width: 100%;box-sizing: border-box; border-bottom: 1px solid #e5e5e5;background: #fff; z-index:999;}
+.select-select{ position: relative;height: 40px;border-bottom:1px solid #e2e2e2;border-top:1px solid #e2e2e2;color: #aaaaaa; }
+.select-select p{ color: #333; width: 50%; font-size: .75rem; line-height: 40px; height: 40px; overflow: hidden; text-align:center; float: left;}
+.select-industype .line,.select-select .line{ position: absolute; width: 2px; height: 100%; left: 50%; top: 0; margin-left:-1px; background: #e5e5e5;}           
+.riqi-default{ position: absolute; left: 0; top:80px; background: #f5f5f5; width: 100%; height: 40px; line-height: 40px; text-align: center; font-size: 15px; border-bottom:1px solid #e5e5e5;border-top: 1px solid #e5e5e5; }
+.year-date,.mouth-date,.day-date{ width:50%; height: 100%; float: left;overflow: hidden;}
+.year-date .swiper-container,.mouth-date .swiper-container,.day-date .swiper-container{ height: 120px; }
+.year-date .swiper-slide,.mouth-date .swiper-slide,.day-date .swiper-slide{line-height: 40px;color: #4d525d;text-align: center; }
+.year-date .swiper-slide-active,.mouth-date .swiper-slide-active,.day-date .swiper-slide-active{ font-size: 15px;}
+.modal-open{ position: fixed; width: 100%;}
+.business-open,.business-close{ color: #b2b2b2;}
+.business-open{ padding-left: 5px;}
+.select-confirm{color: #333; width: 50%; font-size: .75rem; line-height: 40px; height: 40px; overflow: hidden; text-align: center; float: left;background: none; border: 0;}
+/*添加12小时提示*/
+ .sy_setline{ color:#b2b2b2;}
+ .sy_setline span{ padding-right: 10px;}
+ .business-close{ padding: 2px 5px;}	
+ @media screen and (min-width: 300px) and (max-width: 360px) {
+      .sy_scream_dpxx{
+		    height: 54px !important;
+		    line-height: 25px !important;
+		    padding: 2px 0;
+      }    
+      .sy_setline{ line-height: 25px; color:#b2b2b2;;}
+      .sy_setline span{display: block;}
+      /*小屏幕手机统一社会信用代码溢出问题*/      
+      .yx_spxx dl dt {width: 25%;float: left;padding-left: 3%;}
+      .yx_spxx dl dd {width: 72%;float: left;height: 35px;line-height: 35px;}
+      .sy_smallscreen dt{ line-height: 20px;}          
+}
+@media screen and (min-width: 360px) and (max-width: 429px) {
+      .sy_scream_dpxx{
+		    height: 54px !important;
+		    line-height: 50px !important;
+		    padding: 2px 0;
+      }    
+      .sy_setline{ line-height: 25px; color:#b2b2b2;;}
+      .sy_setline span{display: block;}      
+      .yx_spxx dl dt {width: 25%;float: left;padding-left: 3%;}
+      .yx_spxx dl dd {width: 72%;float: left;height: 35px;line-height: 35px;}
+      .sy_smallscreen dt{ line-height: 20px;}
+           
+}
+@media screen and (max-width: 300px){
+       .sy_scream_dpxx{
+		    height: 75px !important;
+		    line-height: 75px !important;
+      }     
+      .sy_setline{ line-height: 25px; color:#b2b2b2;;}
+      .sy_setline span{display: block;}       
+      .yx_spxx dl dt {width: 27%;float: left;padding-left: 3%;}
+      .yx_spxx dl dd {width: 72%;float: left;height: 35px;line-height: 35px;}  
+}
+.sy_yx_srnr{width: 100%;padding-right: 35px;height: 40px;font-size: 13px;box-sizing: border-box;color: #333;}
+.sy_addspan{position:absolute;top:0px; right:0; padding-top: 10px; padding-right: 10px; height:30px; width: 30px;}
+.sy_addspan img,.sy_addspan_red img{ width: 20px;  height:20px; float:right}
+.sy_addspan_red{position:absolute; top:50px;right:0;padding-right: 10px; height:30px; width: 30px;}
+.sy_fendianlist #xxdz{ width: 100% !important;}
+.sy_fendianlist #xxdz input{width: 100%;padding-right: 35px;height: 40px;font-size: 13px;box-sizing: border-box;color: #333;}
+
+/*请上传授权证明 */
+.sy_line10{height: 15px; width: 100%; float: left;}
+.sy_authorcertif .upload{ margin-bottom: 15px;}
+.syadd_upload_pic{ width: 44%;border: 1px solid #e6e6e6;box-sizing: border-box;
+position: relative;float: left;margin: 0 3%;cursor: pointer;}
+.syadd_upload_pic .imgspace{width: 100%;height: auto;overflow: hidden;}
+.syadd_upload_pic .img{ width: 40px; height: 40px; position: absolute; left: 50%; top: 50%; margin-left: -20px;
+margin-top: -20px;}
+
+/*授权证明减号*/
+.syred_upload_pic{ position: absolute; right: 5px; top: 5px; width: 40px; height: 40px;cursor: pointer; text-align: right;}
+.syred_upload_pic img{width: 30px; height: 30px;}
+/*添加弹框*/
+.sy_removepanel{ display: none; z-index:101;width: 80%; padding:20px 0;position: fixed; left: 50%; top: 50%; margin-left: -40%; margin-top: -63px;
+background: #fff; border-radius:5px; border:1px solid #f2f2f2;}
+.sy_removepanel .con{ padding: 10px 0; text-align: center;}
+.sy_removepanel .btn{ padding: 10px 0;}
+.sy_removepanel .btn a{ display: block; width: 40%; float: left; margin: 0 5%; border: 1px solid #f2f2f2;
+text-align: center; box-sizing: border-box; line-height: 35px; border-radius: 5px;border:1px solid #f2f2f2;
+background: #f2f2f2;}
+.sy_remove_qr{background: #f35757 !important; color: #fff;}
+
+/* 错误弹窗 */
+.error_time{ height: 30px; line-height: 30px; text-align: center; background: rgba(0,0,0,0.3); color: #fff; position: fixed; left: 50%; top: 50%; margin-left: -30%; margin-top: -15px; border-radius: 5px; font-size: 14px;  display: none; z-index: 100;    padding: 0 10px;}
+
+#fdnum{
+    text-align: center;
+    margin-top: 20px;
+}
+/*  */
+
+
+
+
+

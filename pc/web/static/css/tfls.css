@@ -1,0 +1,27 @@
+﻿/*##################投放历史###################*/
+.YX_tfls_ss{overflow:hidden; height:100px;}
+.yx_ss_tj{ margin-top:36px; padding-left:20px;}
+.yx_ss_tj p{ float:left;color:#000; margin-right:20px;}
+.yx_ss_tj p span{ float:left;color:#333;font-size:14px;font-family:"宋体";height:28px; line-height:28px;}
+.YX_tf_input{font-size:12px;font-family:"宋体"; padding:0 5px; height:28px; line-height:28px;width:198px; overflow:hidden; border:1px #cdd4f6 solid; margin-left:10px;}
+.YX_dx_input{font-size:12px;font-family:"宋体"; padding:0 5px; height:30px; line-height:30px; width:148px; overflow:hidden; border:1px #cdd4f6 solid; margin-left:10px;}
+
+.YX_ss_button{background:#9babf4;border:1px #9babf4 solid;color:#fff; font-size:30px; display:inline-block;height:100px; line-height:100px; width:140px;}
+/*投放历史 表格 */
+.YX_tflb { margin-top:0px;}
+.YX_tflb table{ width:100%;color:#666666;text-align:center;border-collapse:collapse;font-size:12px;table-layout: fixed; }
+.YX_tflb table td{border-bottom:1px solid #eeeff4;height:40px; padding:0px 10px;white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.YX_tflb a {color:#000;}
+.YX_tflb a:hover { color:#8895d3; }
+/*投放历史 表格 标题 */
+.YX_tflb table tr.yx_tfls_bg_bt{ background:#eeeff4}
+.YX_tflb table tr.yx_tfls_bg_bt td{border-right:1px solid #fff;}
+/*分页样式*/
+.pagination li{display: inline-block;list-style:none;width:30px}
+.pagination {width: 100%;text-align: center;}
+
+
+
+
+
+

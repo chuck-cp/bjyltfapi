@@ -1,0 +1,23 @@
+ul,ol,li {list-style:decimal}
+
+/*banner条幅*/
+.yx_banner img{ width:100%}
+.yx_gmlc_sm{ padding:0 20px; line-height:20px;}
+.yx_biaoti{ font-family:"微软雅黑"; font-size:16px; text-align:center; padding:20px 0;}
+
+/* 常见问题 */
+.yx_cjwt{ padding:0 8% 0 10%; line-height:20px;}
+.yx_lan{ color:#1664ce; font-weight:bold}
+
+.yx_cjwt li{ padding-bottom:10px;}
+
+/* 尾文件 */                                                                                                  
+.yx_gmlc_foot{ background:#1e2c3f;color:#fff;font-family:"微软雅黑"; font-size:12px;padding:20px 0 16px 0;display:flex; flex-direction:column;justify-content:conter; align-items:center;  }
+.yx_logo{}
+.yx_logoimg img{ width:28px; padding-right:10px;}
+.yx_name img{ width:64px;}
+.yx_zcbm{ padding-top:10px;}
+.yx_kefu_dh{ margin-top:5px;}
+.yx_kefu_dh img{ width:15px; height:15px; margin-right:5px;}
+
+

@@ -1,0 +1,30 @@
+/*banner条幅*/
+.yx_banner img{ width:100%}
+.yx_gmlc_sm{ padding:0 20px; line-height:20px;}
+.yx_biaoti{ font-family:"微软雅黑"; font-size:16px; text-align:center; padding:20px 0;}
+/* 流程说明  */
+.yx_gmlc_sm p cite{ color:#e76d06; font-style:normal; padding-right:5px;}
+.yx_gmlc_sm span{ display:block; width:100%; text-align:center; padding:20px 0px}
+.yx_gmlc_sm span img{ width:100%}
+/* 常见问题 */
+.yx_cjwt{ padding:0 5% 0 8%; line-height:20px; padding-bottom:50px;}
+.yx_cjwt p span{ color:#1a6cb6}
+.yx_cjwt p{ padding-bottom:20px;}
+
+.yx_cjwt li{ padding-bottom:10px;}
+
+/* 尾文件 */                                                                                                  
+.yx_gmlc_foot{ height:200px; background:#1e2c3f;color:#fff;font-family:"微软雅黑"; font-size:12px;padding-top:16px;display:flex; flex-direction:column;justify-content:conter; align-items:center;  }
+.yx_lxfs{height:40px;width:100%; display:flex;justify-content:space-around; margin-bottom:25px;}
+.yx_lxfs div{display:flex; flex-direction:row; align-content:center;}
+.yx_lxfs img{ width:40px; height:40px; padding-right:15px;}
+
+
+.yx_logoimg img{ width:28px; padding-right:10px;}
+.yx_name img{ width:64px;}
+
+.yx_zcbm{ padding-top:10px;}
+
+ul,ol,li {list-style:decimal}
+.yx_lan{ color:#1664ce; font-weight:bold}
+

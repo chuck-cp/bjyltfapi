@@ -1,0 +1,121 @@
+/*导航*/
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix:after{clear:both;} 
+.clearfix{ 
+    *zoom:1;/*IE/7/6*/
+}
+body{ background: #fff;}
+.mask{width:100%;background:#000;position:fixed;top: 0px;left:0px;display:none;z-index:100;}
+
+.sy-installhd{height: 44px; background: #fff; box-sizing: border-box; max-width: 640px; font-size: 16px;line-height: 44px;text-align: center; padding:0 4%; position:fixed; width: 100%;}
+.sy-installhd .goback{ width: 16px; display: block; position: absolute;}
+.sy-installhd .goback img{ width: 100%;}
+/*#########################################安装小组开启页#########################################################*/
+.sy_installstart .img{ text-align: center; padding-top: 60px;}
+.sy_installstart .img img{ width: 46.133%;}
+.sy_installstart .name{ text-align: center; padding: 20px 0 50px 0; font-size: 16px;}
+.sy_installstart .benefit{ padding-left: 24%;}
+.sy_installstart .benefit li{line-height: 30px;vertical-align: middle;}
+.sy_installstart .benefit  li:before {content: "";display: inline-block;width: 5px;
+height: 5px;background-color:#ff8302;margin-right:5px; }
+ .sy_installstart .tip{ text-align: center; color: #ff3a00; font-size: 12px; padding-top: 50px;}
+.sy_installstart .btn{ text-align: center; padding: 20px 0;}
+.sy_installstart .btn a{ display:inline-block; background: #ff8302; text-align: center; height: 44px; line-height: 44px;
+ width: 62%; margin: 0 19%; border-radius: 4px; color: #fff; font-size: 15px;}
+/*#########################################待安装店铺页面#########################################################*/
+.sy_waitinstall .tip{max-width: 640px;min-width: 300px; z-index:100;position: fixed;top: 0; width: 93.34%; background: #ffb86e; font-size: 14px; height: 35px; line-height: 35px; color: #fff; padding:0 3.33%;}
+.sy_waitinstall .tip span{padding: 0 20px;}
+
+.sy_waitinstall .listbox{ padding: 35px 3.33% 60px 3.33%;}
+.sy_waitinstall .listitem{ display: block; position: relative; height: 66px; padding: 12px 0; border-bottom: 1px solid #f2f2f2;}
+.sy_waitinstall .listitem .img{ position: absolute; left: 5px; top: 10px;}
+.sy_waitinstall .listitem .img img{ width: 66px; height: 66px; border-radius: 5px;}
+.sy_waitin_txt{ margin:0 80px;}
+.sy_waitin_txt p{ line-height: 22px;text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.sy_waitin_txt .name{ font-size: 15px;}
+.sy_waitin_corpra{ position: absolute; right:0; top: 15px; width: 75px;text-align: center;}
+.sy_waitin_corpra p{ line-height: 22px;}
+.sy_waitin_corpra .tba{ color: #ff8302; font-size: 15px;}
+.sy_waitin_corpra .assigned{ color: #53b225; font-size: 15px;}
+.sy_waitin_corpra .number{ color: #ff4302;}
+/*已安装样式*/
+.sy_waitin_corpra .screen{ color: #ff8302; font-size: 15px;}
+.sy_waitin_corpra .date{ color: #999;font-size: 12px;}
+.sy_waitin_corpra .xingming{ color: #ff4302;}
+/**/
+.sy_waitin_corpra .identifited{}
+.sy_waitin_corpra .identifited span,.sy_waitins_tabcon table td:first-child span{ position:relative; width: 14px; height: 14px; display: inline-block;margin-top: 5px; }
+.sy_waitin_corpra .identifited span.unselected,.sy_waitins_tabcon table td:first-child span.unselected{background:url(/static/images/sy_waitinstall_unchecked.png); background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;}
+.sy_waitin_corpra .identifited span.selected,.sy_waitins_tabcon table td:first-child span.selected{background: url(/static/images/sy_waitinstall_checked.png); background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;}
+.sy_waitin_corpra .identifited span input,.sy_waitins_tabcon table td:first-child span input{ width: 100%; position: absolute; left: 0; opacity: 0;}
+.sy_waitin_btn{ position: fixed; left: 19%; bottom:20px; width: 62%; height: 40px;border-radius:5px; border: none; color: #fff; background: #ff8302; font-size: 15px;}
+/*确认安装指派弹框*/
+.sy_waitins_tabpanel{z-index:101; display:none;background: #fff; position: fixed; width: 95%; left: 2.5%; height: 370px; top:50%; margin-top: -185px;border-radius: 5px;}
+.sy_waitins_tabpanel .tit{ color: #fff; font-size: 15px; text-align: center; width: 100%; height: 40px; line-height: 40px; background: url(/static/images/sy_waitinstall_panelitit.png);background-size:100% 100%;background-position: 50% 50%;background-repeat: no-repeat;}
+.sy_waitins_close{ position: absolute; right: 9px; height: 22px; width: 22px; top:9px;}
+.sy_waitins_close img{ width: 22px; height: 22px; float: left;}
+.sy_waitins_tabcon{ height: 260px; overflow-y: scroll; padding: 10px;}
+.sy_waitins_tabcon table{width:100%;border-collapse:collapse;}
+.sy_waitins_tabcon table td{border-bottom:1px solid #f2f2f2;height:50px; color:#181818; font-size:14px;}
+.sy_waitins_tabpanel button{width: 62%; height: 40px; margin:0px 19%; border-radius:5px; border: none; color: #fff; background: #ff8302; font-size: 15px;}
+
+/*sy_waitins_doing*/
+.sy_waitins_doing{z-index:101; display: none; width: 75%; background: #fff;border-radius:5px; position: fixed; left: 50%; top: 50%; margin-left: -37.5%;margin-top: -37.5%;}
+.sy_waitins_doing .img{  position: relative;}
+.sy_waitins_doing .img img{ width: 100%;}
+.sy_waitins_doing .img p{ text-align: center; line-height: 23px; position: absolute; left: 15%; top: 10%; width: 70%; color: #fff; font-size: 14px;}
+.sy_waitins_doing .btn{ padding:10px;}
+.sy_waitins_doing .btn a{ box-sizing: border-box; display: inline-block; border-radius: 5px; text-align: center; padding: 5px 0; width: 36%; border-radius:5px; margin: 0 7%; float: left;}
+.sy_waitins_doing .btn a.qr{ font-size: 15px; border: 1px solid #333; background: #fff;}
+.sy_waitins_doing .btn a.qx{ font-size: 15px; border: 1px solid #ff8302; background: #ff8302; color: #fff;}
+/*不可选择两种状况弹框*/
+.sy_waitins_choicetwo{display:none;z-index:101; width: 75%; position:fixed; left: 50%; margin-left: -37.5%; top: 50%; margin-top: -10px;}
+.sy_waitins_choicetwo .img{ position: relative;}
+.sy_waitins_choicetwo .img .bgimg{ width: 100%;}
+.sy_waitins_choicetwo .img p{ text-align: center; color: #fff; font-size: 14px;position: absolute; left: 50%; margin-left: -35%;  width: 70%;height:100%;display: flex;justify-content:center;align-items:center;overflow: hidden;}
+.sy_waitins_choicetwo .img span{ position: absolute; right: 10px; top: 10px;}
+.sy_waitins_choicetwo .img span img{ width: 22px; height: 22px; float: left;}
+/*=================================================+sy_waitins_xq待审核店铺详情+=======================================*/
+
+.sy_waitins_xqdianpu{ width: 80%; position: relative; overflow: hidden; margin: 15px auto; border-radius:5px}
+.sy_waitins_xqdianpu .spacing{ width: 100%;}
+.sy_waitins_xqdianpu .reaimg{ position: absolute; left: 0; top: 0; width:100%; height: 100%;}
+.sy_waitins_xqdianpu .status{ position: absolute; left: 0; top: 0; width: 44px; height: 44px;
+background: url(/static/images/examine_tag.png);background-size: contain;background-position: 50% 50%;background-repeat: no-repeat;}
+.sy_waitins_xqdianpu .status p{position: absolute; left:-3px; top: 8px;transform:rotate(-45deg); color: #fff; font-size: 12px;}
+.sy_waitins_xqdianpu .name{ position:absolute; left: 0; width: 100%; bottom :13px; text-align: center;}
+.sy_waitins_xqdianpu .name span{ background: rgba(0,0,0,0.4); color: #fff; padding: 5px 12px; border-radius: 10px;}
+
+.sy_waitins_xqdpinfor,.sy_waitins_xqphoto{ padding: 10px 3.33%; border-top: 1px solid #f2f2f2;}
+.sy_waitins_xqdpinfor .tit,.sy_waitins_xqphoto .tit{ font-size: 15px; padding: 5px 0;}
+
+.sy_waitins_xqdpcon{}
+.sy_waitins_xqdpcon .list{ padding: 5px 2%; float: left; width: 96%; font-size: 14px;}
+.sy_waitins_xqdpcon .list span{ line-height: 22px;}
+.sy_waitins_xqdpcon .list .lf{ float: left;}
+.sy_waitins_xqdpcon .list .rh{ float: right;}
+.sy_waitins_xqphoto .img{padding: 5px 2%;}
+.sy_waitins_xqphoto .img li{ border-radius:5px; margin:5px 0;width: 44%; float: left; overflow: hidden; position: relative;}
+.sy_waitins_xqphoto .img li:nth-child(2n){ margin-left: 12%;}
+.sy_waitins_xqphoto .img li .spacing{ width: 100%;}
+.sy_waitins_xqphoto .img li .realimg{ position: absolute; left: 0; top: 0; width: 100%; height: 100%;}
+
+/*暂时待没有安装业务*/
+.sy_nowaitins_shop{ text-align: center;}
+.sy_nowaitins_shop .img{ padding-top: 50%;}
+.sy_nowaitins_shop .img img{ width: 43.33%;}
+.sy_nowaitins_shop .txt{ text-align: center; font-size: 14px; padding: 10px 0; color: #b2b2b2;}
+.listitem a{ display: block}
+
+/*正在加载*/
+.sy_loadingpage{ height: 140px; position:fixed; width: 100%; text-align: center; top: 50%; margin-top: -70px;}
+.sy_loadingpage img{ width: 15%;}
+.sy_loadingpage p{ color: #ccc; padding-top: 20px;}

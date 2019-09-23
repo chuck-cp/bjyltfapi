@@ -1,0 +1,51 @@
+ input:disabled{background: transparent;}
+ /*隐藏滚动条*/
+ .cur_box::-webkit-scrollbar {  display: none;  }
+ /* 遮罩 */
+ .mask_box{position: fixed;left: 0;top: 0;bottom: 0;right: 0;background: rgba(0,0,0,.3);display: none;}
+ /* 设备选择 */
+.equipment_box{position: fixed;bottom: -240px;left: 0;right: 0;background: #FFFFFF;display: none; z-index: 999;}
+.equipment_list{height: 192px;overflow-y: auto;}
+.equipment_list li{padding: 14px 2%;font-size: 14px;border-bottom: 1px #F0F0F0 solid;}
+.btn_box{text-align: center;}
+.cancel_btn{height: 42px;width: 100%;background: -webkit-linear-gradient(left, #ff7d09 , #ef4f08); background: -o-linear-gradient(right, #ff7d09, #ef4f08); background: -moz-linear-gradient(right, #ff7d09, #ef4f08); background: linear-gradient(to right, #ff7d09 , #ef4f08);}
+.equipment_list::-webkit-scrollbar{display: none;}	
+/* 上传 */
+.upload{ width: 44%; border: 1px solid #e6e6e6; box-sizing: border-box; position: relative; float: left; margin: 0 3%;border:0}
+.upload .imgspace{ width: 100%; height:auto; overflow: hidden;}
+.upload .addimg{ width: 100% !important; height: 100%; position: absolute; left: 0; top: 0;}
+.upload .Upload-imginput{ width: 100%;  height: 100%; position: absolute;left: 0; top: 0; opacity: 0;cursor: pointer;}
+.syadd_upload_pic{border: 0;}
+.syred_upload_pic img{width: 30px;}
+/* input radio */
+input[type="radio"]{width: auto;margin-right: 12px;}
+.mark_tt{border-left-color: #ff7d09;}
+.shop_info .yanzhenma{background:#ff7d09}
+.alone_possess_bool{overflow: hidden;}
+.alone_possess_li label{    margin-right: 2rem;}
+.radio_box{float: left;color: #333;}
+.sure_btn{position: fixed;bottom: 0;width: 100%; height: 42px; display: block; color: #FFFFFF;  border: 0; background: -webkit-linear-gradient(left, #ff7d09 , #ef4f08); background: -o-linear-gradient(right, #ff7d09, #ef4f08); background: -moz-linear-gradient(right, #ff7d09, #ef4f08); background: linear-gradient(to right, #ff7d09 , #ef4f08);font-size: 16px;}
+/* 增加表单切换fun */
+.shop_info .cur_box{padding-top: 0; padding-bottom: 0; height: 40px; width: 96%; white-space: nowrap; overflow-x: scroll;}
+.cur_box span{display: inline-block;float: none;width: auto;font-size: 12px;background: #E0E0E0;padding: 6px 12px;border-radius: 28px;color: #333;margin-right: 10px;}
+.cur_box .cur_def{color: #ffffff;background: #ff7d09;}
+#clone{display: none;}
+.item_li .shop_info{margin-top: 0;}
+#list_box .item_li{display: none;}
+#list_box .item_li:last-child{display: none;}
+#list_box .item_li:first-child{display: block;}		   
+#list_box .cur_hide{display: none !important }		   
+#list_box .cur_show{display: block !important }
+.add_img{width: 16px;}
+.shop_info .add_span{width: 60%; text-align: right;}		   
+/* 楼层选择 */
+.floor_sel_box{position: fixed;left: 0;right: 0;bottom: 0;background: #FFFFFF;display: none;}
+.floor_close{width: 14px;padding-left: 40%;float: right;}
+.floor_btns{width: 14.6%;height: 24px;text-align: center;background: #e0e0e0;border: 0;border-radius: 4px;margin-right: 2%;    margin-bottom: .4rem;}
+.cur_floor{background: #ff7d09;color: #FFFFFF;}
+.floor_tt_warp,.floor_con{padding-left: 2%; padding-right: 2%;}
+.floor_tt_warp{margin-top: 16px;margin-bottom: 30px;overflow: hidden;}
+.floor_con{margin-bottom: 30px;overflow: hidden; padding-right: 0;}
+.floor_con .floor_btns{float: left;}
+.floor_tt{float: left;}
+.floor_btn{font-size: 16px;width: 100%; height: 42px; display: block; color: #FFFFFF; border: 0; background: -webkit-linear-gradient(left, #ff7d09 , #ef4f08); background: -o-linear-gradient(right, #ff7d09, #ef4f08); background: -moz-linear-gradient(right, #ff7d09, #ef4f08); background: linear-gradient(to right, #ff7d09 , #ef4f08);}

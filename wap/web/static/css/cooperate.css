@@ -1,0 +1,76 @@
+* {margin: 0;padding: 0 }
+table {border-collapse: collapse;border-spacing: 0}
+h1,h2,h3,h4,h5,h6 {font-size: 100%; font-weight: normal;}
+ul,ol,li {list-style: none}
+em,i {font-style: normal}
+img {border: 0;display:inline-block}
+input,img {vertical-align: middle; border:none; }
+a {color: #333;text-decoration: none;-webkit-tap-highlight-color:transparent;}
+input,button,textarea{-webkit-tap-highlight-color:transparent;outline: none;  }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body{font-size: 13px; color: #333; background: #fff;}
+p{ margin: 0; padding: 0;}
+.sy-body{padding: 0;min-width: 300PX;max-width: 640PX; margin: 0 auto;}
+.clearfix:after{ display:block; content:''; clear:both;} 
+.clearfix {zoom:1; }
+.cooperate-tit{}
+.cooperate-tit img{ width: 100%; height: auto;}
+.cooperate .cop-nav{ border-top: 1px solid #e6e6e6; border-bottom: 1px solid #e6e6e6; line-height: 42px; padding:0 10px; box-sizing: border-box;}
+.cooperate .cop-nav li{ float: left; width: 33.33%; text-align: center; font-size: 15px; font-weight: bold; position: relative;}
+.cooperate .cop-nav li span{ height: 4px; width: 100%; position: absolute; left: 0; bottom: -2px; background: #eb7c03; display:none;}
+.cooperate .cop-nav li.hover span{ display: block;}
+.nav-blank{ height: 42px; display: none;}
+.fixed{ position: fixed; left: 0; top: 0; width: 100%; background: #fff;}
+.part-two,.part-three{ display: none;}
+/*内容*/
+.cop-content{padding: 15px;}
+.cop-content .title{ color: #333; text-align: center; font-size: 16px; font-weight: bold; padding: 10px 0;}
+.cop-content .small-title{ color: #e76d06; padding: 5px 0;}
+.cop-content .wz-nr,.poli-content .wz-nr{ line-height: 22px; text-indent: 2em;padding: 2px 0;}
+.cp-condition{ color: #3776cc;}
+.cop-content .img-nr{ text-align: center; padding: 15px 0;}
+.step-title{ font-size: 14px; font-weight: bold; text-indent: 2em; line-height: 22px; padding: 2px 0;}
+.wz-nr .red{ color: #ff0101;}
+/*返回顶部*/
+.goback{ width: 44px; height: 44px; position: fixed; right: 10px; bottom:20px; display: none;}
+.goback img{ width: 44px; height: 44px;}
+
+.cop-privilege{ padding: 5px 0 5px 2em; font-weight: bold;}
+.cop-privilege img{ padding-right: 5px;}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<合作政策*/
+.poli-content{padding: 15px;} 
+.poli-content .title{ color: #333; text-align: center; font-size: 16px; font-weight: bold; padding: 10px 0;}
+.poli-content .small-title{ font-size: 14px; font-weight: bold; color: #333; text-indent: 2em; padding: 15px 0 5px 0;}
+
+
+
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<底部内容*/
+.five-screen{ background: #1e2c3f;}
+.sec-five-wap{ padding: 30px 10px; color: #fff;}
+.sec-five-cn1{display: flex;justify-content:space-around}
+.sec-five-cn1,.sec-five-cn2{ padding-bottom: 20px; overflow: hidden;}
+.sec-five-cn2{ padding: 10px 0;}
+.sec-five-wap .sec-five-cn1 img{ width: 40px; height:40px; margin-right: 10px;vertical-align:top;}
+.sec-five-wap .sec-five-cn1 p{ float: left; }
+.sec-five-wap .sec-five-cn1 p:last-child{float:right; vertical-align: middle;}
+.sec-five-wap .sec-five-cn1 p span{ display: inline-block;font-size: 12px; line-height: 20px;}
+.sec-five-wap .sec-five-cn1 a{color: #fff;}
+.sec-five-cn2{ text-align: center; font-weight: bold; font-size: 14px;}
+.sec-five-cn2 img{ width: 35px; height: 35px; margin-right: 10px;}
+.sec-five-cn3 { color: #fff; text-align: center; font-size: 12px; }
+@media screen and (max-width: 320px) {
+    .sec-five-wap .sec-five-cn1 img{ width: 30px; height:30px;}
+    .sec-five-wap .sec-five-cn1 p span{ line-height: 15px;}
+}
+/*适配*/
+@media screen and (min-width: 330px) and (max-width:390px) {
+	.sec-two-p1 .con-p, .sec-two-p2 .con-p {font-size: 12px;line-height: 18px;padding: 5px 0;}
+}
+
+/*顶部返回首页*/
+.cp-return{ background: #fff; padding: 10px 0; height: 24px;}
+.cp-return .icon{ display: inline-block; position: absolute; left: 5px; width: 20px; height: 20px;}
+.cp-return .icon img{ width: 24px; height: 24px;}
+.cp-return h3{ margin: 0 30px; line-height: 24px; text-align: center; font-size: 16px;}

@@ -1,0 +1,44 @@
+﻿/*右侧菜单*/
+.yx_right_menu{padding-top:0px;}
+
+/*##################首页###################*/
+/*任务列表*/
+.yx_rwlb{}
+.yx_dqyrbt{ height:59px; line-height:59px; color:#425198; font-size:14px; padding-left:20px;}
+.yx_rwlb ul{ width:100%;}
+.yx_rwlb ul li{width:280px; float:left; margin:0 6px; height:280px;}
+/*任务列表 图片*/
+.yx_ga_img{ text-align:center; width:280px; height:200px;}
+.yx_ga_img img{ width:280px; }
+/*任务列表 信息*/
+.yx_rwlb ul li{ position:relative; margin-bottom:10px;}
+.guangao_xx{font-size:14px;color:#333; padding:0 10px;border: 1px #e6e6e6 solid; border-top:0px; padding-top:10px;}
+.guangao_xx span{ display:block; height:24px; line-height:px;}
+.guangao_zt{ height:60px; width:60px;text-align:center; position:absolute;top:108px; right:7px}
+.guangao_zt cite{height:60px; width:60px; display:block;-webkit-border-radius:25em;-moz-border-radius:25em;border-radius:25em;filter:alpha(opacity=70);-moz-opacity:0.7;-khtml-opacity: 0.7; opacity: 0.7;}
+.guangao_zt span{height:60px; width:60px; display:block; margin-top:-60px; position:absolute; z-index:10; text-align:center; line-height:60px;-webkit-border-radius:25em;-moz-border-radius:25em;border-radius:25em; color:#fff; font-size:14px;}
+
+.guangao_zt cite.zt_black{background:#333;}
+.guangao_zt cite.zt_yellow{background:#bc8520;}
+.guangao_zt cite.zt_red{background:#b23731;}
+.guangao_zt cite.zt_blue{background:#2a8ba5;}
+.guangao_zt cite.zt_green{background:#26af4e;}
+
+.yx_gmwsz{ height:160px; line-height:226px; text-align:center}
+
+/*右下角弹出*/
+.dingwe{ position:relative;}
+.tipfloat{display:none;z-index:999;border:1px #8e9cde solid; position:absolute; bottom:0px; right:17px;width:388px;height:268px; background:#fff}
+.tipfloat_bt{ height:49px; line-height:49px;background:#8e9cde; padding:0px 20px; font-size:18px; color:#fff; }
+*+html .tipfloat_bt .close img{margin-top:10px;}
+/*右下角弹出 内容*/
+.xx_nrong{font-size:18px; color:#333; text-align:center; padding:30px 0; line-height:26px; }
+.xx_nrong p cite{ color:#838fca}
+.yx_tjcq{background:url(../images/tjcq.png); width:230px; height:60px;font-size:24px; font-family:"黑体"; color:#fff; border:0px;}
+.ranklist { text-align:center}
+
+/*当前您还未购买任何广告*/
+.yx_wgm{ color:#d0cfcf;font-size:18px; font-family:"黑体"; text-align:center; padding-top:310px;}
+
+
+

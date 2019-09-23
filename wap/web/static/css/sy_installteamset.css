@@ -1,0 +1,78 @@
+/*========================================安装小组设置====================================*/
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix:after{clear:both;} 
+.clearfix{ 
+    *zoom:1;/*IE/7/6*/
+}
+body{ background: #fff;}
+.mask{width:100%;background:#000;position:fixed;top: 0px;left:0px;display:none;z-index:100;}
+body{ background: #fff;}
+.sy_installset{ padding: 10px 3.33%;}
+.sy_installset .list{ padding: 10px 0; border-bottom: 1px solid #f2f2f2; overflow: hidden;}
+.sy_installset .list p{float: left; line-height: 23px; }
+.sy_installset .list .lf{width: 34%; font-size: 15px;}
+.sy_installset .list .rh{width: 65%; padding-right: 15px; box-sizing: border-box; text-align:right;font-size: 14px; position: relative;text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.sy_installset .list .rh .txt{ display:block;text-overflow:ellipsis; white-space:nowrap; overflow:hidden; height: 23px}
+.sy_installset .list .rh input{ line-height: 23px; font-size: 14px; color: #333; text-align: right;}
+.half_address{width: 60%; padding:10px 15px 10px 0; box-sizing: border-box; line-height: 23px; margin-left:40%;border-bottom: 1px solid #f2f2f2; text-align:right;font-size: 14px; position: relative;text-overflow:ellipsis; white-space:nowrap; overflow:hidden;}
+.half_address input{ width:100%;line-height: 23px;font-size: 14px;color: #333; text-align: right;}
+
+.sy_installset .list .rh .tag{ position:absolute; right: 0; top: 0; height: 23px;}
+.sy_installset .list .rh span img{ width: 7px; height: 13px; vertical-align: middle;}
+.sy_insteamset_btn{ width: 61.4%; display: block; margin:25px auto; height: 40px; background: #ff8302; line-height: 40px;
+text-align: center; border-radius: 5px; font-size: 15px; color: #fff;}
+/*sy_waitins_doing*/
+.sy_installset_doing{z-index:101;display: none; width: 75%; background: #fff;border-radius:5px; position: fixed; left: 50%; top: 50%; margin-left: -37.5%;margin-top: -37.5%;}
+.sy_installset_doing .img{  position: relative;}
+.sy_installset_doing .img img{ width: 100%;}
+.sy_installset_doing .img p{ text-align: center; line-height: 23px; position: absolute; left: 15%; top: 10%; width: 70%; color: #fff; font-size: 14px;}
+.sy_installset_doing .btn{ padding:10px;}
+.sy_installset_doing .btn a{ box-sizing: border-box; display: inline-block; border-radius: 5px; text-align: center; padding: 5px 0; width: 36%; border-radius:5px; margin: 0 7%; float: left;}
+.sy_installset_doing .btn a.qr{ font-size: 15px; border: 1px solid #333; background: #fff;}
+.sy_installset_doing .btn a.qx{ font-size: 15px; border: 1px solid #ff8302; background: #ff8302; color: #fff;}
+/*无法解除弹框*/
+.sy_installset_choicetwo{display:none;z-index:101; width: 75%; position:fixed; left: 50%; margin-left: -37.5%; top: 50%; margin-top: -30px;}
+.sy_installset_choicetwo .img{ position: relative;}
+.sy_installset_choicetwo .img .bgimg{ width: 100%;}
+.sy_installset_choicetwo .img p{ text-align: center; color: #fff; font-size: 14px;position: absolute; left: 50%; margin-left: -35%;  width: 70%;
+	height:100%;display: flex;justify-content:center;align-items:center;overflow: hidden;}
+.sy_installset_choicetwo .img span{ position: absolute; right: 10px; top: 10px;}
+.sy_installset_choicetwo .img span img{ width: 22px; height: 22px; float: left;}
+
+
+/*选择地区弹层*/
+.express-area-box { position: absolute; bottom: -100%; left: 50%; z-index: 15; width: 320px; margin-left: -160px; background-color: #fff; color: #4d525d; display:none }
+.express-area-box header { position: relative; border-top: 1px solid #e2e2e2; border-bottom: 1px solid #e2e2e2; }
+.express-area-box header h3 { margin: 0 1.675rem; text-align: center; font-size: .8rem; line-height: 2.25rem; }
+.express-area-box header .back,
+.express-area-box header .close { position: absolute; top: 0; width: 1.675rem; height: 2.25rem; }
+.express-area-box header .back { display: none; left: 0; background: url(../images/back.png) no-repeat center;   background-size: .45rem .75rem; }
+.express-area-box header .close { right: 0; background: url(../images/close-area.png) no-repeat center; background-size: .675rem .675rem; }
+.express-area-box article { height: 250px; overflow-y: scroll; }
+.area-list li { padding: .5rem; border-bottom: 1px solid #e2e2e2; text-align: justify; font-size: .7rem; line-height: 1.25rem; }
+@media (min-width: 721px) and (max-width: 1300px) {
+	.express-area-box { width: 224px; margin-left: -112px; }
+	.express-area-box header h3 { font-size: .7rem; line-height: 1.7rem; }
+	.express-area-box header .back,
+	.express-area-box header .close { height: 1.7rem; }
+	.express-area-box article { height: 120px; }
+	.area-list li { padding: .3rem; font-size: .6rem; line-height: 1rem; }
+}
+@media (max-width: 720px) {
+	.express-area-box { position: fixed; left: 0; width: 100%; margin-left: 0; }
+}
+/*遮罩层*/
+.dzmask { display: none; position: absolute; top: 0; left: 0; z-index: 12; width: 100%; height: 100%; background-color: rgba(0,0,0,.5); }
+@media (max-width: 720px) {
+	.mask { position: fixed; }
+}
+#chuaru_dz{ display:none;}
+

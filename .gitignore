@@ -1,0 +1,14 @@
+/.idea
+*/runtime
+/api/web/assets
+/api/runtime
+/api/web/swoole
+/wap/web/assets
+/wap/runtime
+/pc/web/assets
+/pc/runtime
+/api/models/Es.php
+/nbproject/private/
+/common/config/main-local.php
+/api/web/index.php
+/api/config/function.php

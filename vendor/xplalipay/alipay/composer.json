@@ -1,0 +1,26 @@
+{
+	"name":"xplalipay/alipay",
+	"type":"yii2-extension",
+	"description":"yii2支付宝支付扩展",
+	"keywords":["yii2","alipay"],
+	"license":"MIT",
+	"support":{
+		"issues":"https://github.com/q490880/yii2-alipay/issues",
+		"form":"http://blog.csdn.net/q490880",
+		"source":"https://github.com/q490880/yii2-alipay"
+	},
+    "authors": [
+		{
+			"name": "XuPengLiang",
+			"email": "11468804@qq.com"
+		}
+	],
+	"require":{
+		"yiisoft/yii2":"*"
+	},
+	"autoload":{
+		"psr-4":{
+			"xplalipay\\alipay\\":"src/"
+		}
+	}
+}

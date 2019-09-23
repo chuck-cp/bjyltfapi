@@ -1,0 +1,50 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:none; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; } 
+
+
+/*公共*/
+.fl{ float:left}
+.fr{ float:right}
+.clearfix:after{ display:block; content:''; clear:both;} 
+.clearfix {zoom:1; }
+.blank10{ height:10px; line-height:1px; font-size:1px; clear:both; overflow:hidden;}
+
+/*火狐自适应高度*/
+.clearff { clear: both;}
+/*换行*/
+.brhh br {display: none;}
+.wrap { width:900px; margin:0 auto;clear:both; line-height:28px; font-size:14px;}
+/*IE6双倍间距*/
+.doublejj{display:inline;}
+/*其他*/
+em,i,cite{ font-style:normal}
+.fontw{ font-weight:bold}
+input{outline:none} 
+
+/*头部*/
+.xieyi_head{ font-size:24px; text-align:center; padding:20px 0; line-height:24px; }
+.chengse{ color:#ed7d31; font-weight:bold}
+.xiyi_nr p{text-indent:2em}
+.tiaokuan{ font-weight:bold}
+.red{ color:#F00; font-weight:bold}
+.kaiti{ font-family:"STKaiti","黑体"}
+
+
+
+
+
+
+

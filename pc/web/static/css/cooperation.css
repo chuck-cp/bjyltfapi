@@ -1,0 +1,573 @@
+.top{
+    width: 100%;
+    min-width: 1200px;
+    height: 90px;
+    background-color: #1e2c3f;
+    position: fixed;
+    z-index: 101;
+
+}
+@media screen and (max-width: 1200px){
+    .top{
+        width: 1200px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .cooperation{
+        width: 1200px;
+    }
+}
+.top .wrap{
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+    overflow:hidden;
+    min-width: 1200px;
+}
+
+.top .wrap .left{
+    float: left;
+    height: 100%;
+}
+
+.top .wrap .left *{
+    line-height: 90px;
+    vertical-align: middle;
+}
+.top .wrap .left .logo{
+    width: 229px;
+    height: 60px;
+}
+.top .wrap .left .phone{
+    /*width: 37px;
+    height: 39px;*/
+    margin:0px 5px 0px 10px;
+}
+.top .wrap .left span{
+    font-family: 'Miscroft Yahei';
+    font-size: 28px;
+    color: #e76d06;
+}
+
+.top .wrap .right{
+    float: right;
+    height: 100%;
+}
+.top .wrap .right ul{
+    width: 100%;
+    height: 45px;
+    list-style: none;
+    margin-top: 48px;
+}
+.top .wrap .right ul li{
+    float: left;
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    cursor: pointer;
+}
+.top .wrap .right ul li a{
+    display: block;
+    text-decoration: none;
+    font-family: 'Miscroft Yahei';
+    font-size: 18px;
+    color: #fff;
+}
+.top .wrap .right ul li .active{
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin-top:21px;
+    background-color: #e76d06;
+}
+
+.empty{
+    width: 100%;
+    height: 90px;
+}
+
+.navs{
+    width: 100%;
+    min-width: 1200px;
+    height: 240px;
+    background: url('../image/bg_02.png') center no-repeat;
+}
+
+.navs .wrap{
+    position: relative;
+    width: 1200px;
+    min-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.navs .wrap .toggle{
+    position: absolute;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    height: 53px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #fff;
+    border-top-left-radius: 4px;
+    border-top-right-radius:4px;
+    border-bottom: 1px solid #ddd;
+}
+
+.navs .wrap .toggle a{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    width: 400px;
+    height: 53px;
+    line-height: 53px;
+    font-family: 'Miscroft Yahei';
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navs .wrap .toggle a .active{
+    display: inline-block;
+    position: absolute;
+    left: 80px;
+    bottom: 0px;
+    width: 240px;
+    height: 4px;
+    background-color: #3776cc;
+    margin: 0 auto;
+}
+.cooperation{
+    background: #f5f5f5;
+}
+.cooperation1 .wrap{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+
+.cooperation1 .wrap .title{
+    padding-top: 47px;
+    text-align: center;
+    font-family: "Miscroft Yahei";
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+}
+
+.cooperation1 .wrap .title1{
+    font-family: "Miscroft Yahei";
+    font-weight: bold;
+    font-size: 18px;
+    color: #e76d06;
+    margin-top: 54px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cooperation1 .wrap .content{
+    text-indent: 2em;
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cooperation1 .wrap .content a{
+    text-decoration: none;
+    color: #3776cc;
+}
+.cooperation1 .wrap .section1{
+    position: relative;
+    height: 510px;
+    overflow: hidden;
+}
+
+.cooperation1 .wrap .section1 .left{
+    width: 412px;
+    height: 100%;
+    float: left;
+}
+.cooperation1 .wrap .section1 .left img{
+    margin-top: 30px;
+    margin-left: 78px;
+}
+
+.cooperation1 .wrap .section1 .right{
+    width: 758px;
+    height: 100%;
+    float: left;
+}
+
+
+.cooperation1 .wrap .section1 .right div:first-child{
+    font-family: "Miscroft Yahei";
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1.2px;
+    padding-right: 30px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    margin-top: 69px;
+    margin-bottom: 30px;
+}
+
+.cooperation1 .wrap .section1 .right div{
+    font-family: "Miscroft Yahei";
+    font-size: 16px;
+    color: #333;
+    letter-spacing: 1.2px;
+    text-indent: 2em;
+    line-height: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+
+}
+
+.cooperation1 .wrap .section1 .right div:last-child{
+    margin-top: 8px;
+}
+
+.cooperation1 .wrap .section1 .right div a{
+    text-decoration: none;
+    color: #3776cc;
+}
+.cooperation1 .wrap .section1 .line{
+    position: absolute;
+    left: 50px;
+    bottom: 0px;
+    width: 1100px;
+    height: 1px;
+    border-bottom: 1px dotted #333;
+}
+
+.cooperation1 .wrap .section1 .last a{
+    text-decoration: none;
+    color: #3776cc;
+}
+.cooperation2{
+    display: none;
+}
+
+.cooperation2 .wrap{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+
+.cooperation2 .wrap .title{
+    padding-top: 49px;
+    text-align: center;
+    font-family: "Miscroft Yahei";
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+}
+
+.cooperation2 .wrap .title1{
+    font-family: "Miscroft Yahei";
+    font-weight: bold;
+    font-size: 18px;
+    color: #e76d06;
+    margin-top: 55px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cooperation2 .wrap .content{
+    text-indent: 2em;
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cooperation2 .wrap .content a{
+    text-decoration: none;
+    color: #4781d0;
+}
+.cooperation2 .wrap .section{
+    position: relative;
+    overflow: hidden;
+}
+
+.cooperation2 .wrap .section .left{
+    float: left;
+    width: 574px;
+}
+
+.cooperation2 .wrap .section .left .section1{
+    height: 100%;
+}
+.cooperation2 .wrap .section .left .section1 .title-item{
+    height: 30px;
+    margin-top: 75px;
+    margin-bottom: 22px;
+    padding-left: 145px;
+}
+.cooperation2 .wrap .section .left .section1 .title-item  *{
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+.cooperation2 .wrap .section .left .section1 .title-item span{
+    font-family: "Miscroft Yahei";
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    line-height: 30px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.cooperation2 .wrap .section .left .section1 .text{
+    font-family: "Miscroft Yahei";
+    font-size: 16px;
+    color: #333;
+    text-indent: 2em;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    padding-left: 125px;
+}
+.cooperation2 .wrap .section .left .section1 .text a{
+    text-decoration: none;
+    color: #3776cc;
+}
+.cooperation2 .wrap .section .right{
+    float: left;
+    width: 626px;
+}
+
+.cooperation2 .wrap .section .right .first{
+    margin-top: 54px;
+    margin-left: 85px;
+    margin-bottom: 14px;
+}
+.cooperation2 .wrap .section .pic1{
+    position: absolute;
+    left: 282px;
+    top: 95px;
+}
+.cooperation2 .wrap .section .right .second{
+    margin-left: 105px;
+    margin-bottom: 14px;
+}
+.cooperation2 .wrap .section .pic2{
+    position: absolute;
+    left: 282px;
+    top: 596px;
+}
+.cooperation2 .wrap .section .right .third{
+    margin-left: 85px;
+    margin-bottom: 14px;
+}
+.cooperation2 .wrap .section .pic3{
+    position: absolute;
+    left: 282px;
+    top: 1061px;
+}
+.cooperation3{
+    display: none;
+}
+
+.cooperation3 .wrap{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    background-color: #fff;
+}
+
+.cooperation3 .wrap .title{
+    padding-top: 44px;
+    text-align: center;
+    font-family: "Miscroft Yahei";
+    font-weight: bold;
+    font-size: 30px;
+    color: #333;
+}
+
+.cooperation3 .wrap .title1{
+    font-family: "Miscroft Yahei";
+    font-weight: bold;
+    font-size: 18px;
+    color: #e76d06;
+    margin-top: 38px;
+    margin-bottom: 28px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cooperation3 .wrap .content{
+    text-indent: 2em;
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.cooperation3 .wrap .example{
+    padding: 33px 0px 40px 75px;
+}
+
+.cooperation3 .wrap .last a{
+    text-decoration: none;
+    color: #3776cc;
+}
+
+.bottom{
+    width: 100%;
+    min-width: 1200px;
+    height: 282px;
+    background-color: #1e2c3f;
+    overflow: hidden;
+}
+@media screen and (max-width: 1200px){
+    .bottom{
+        width: 1200px;
+    }
+}
+.bottom .wrap{
+    width: 1200px;
+    height: 212px;
+    margin:0 auto;
+}
+
+.bottom .wrap .left{
+    float: left;
+}
+.bottom .wrap .left img{
+    margin:40px 0px 10px 0px;
+}
+
+.bottom .wrap .left span{
+    display: block;
+    font-family: 'Miscroft Yahei';
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.bottom .wrap .left a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Miscroft Yahei';
+    font-size: 16px;
+}
+
+.bottom .wrap .right{
+    float: right;
+    position: relative;
+}
+.bottom .wrap .right .code{
+    position: absolute;
+    width: 100px;
+    height: 134px;
+    text-align: center;
+    top:45px;
+    right: 160px;
+}
+
+.bottom .wrap .right .code span{
+    color: #fff;
+    font-family: "Miscroft Yahei";
+    font-size: 14px;
+}
+
+.bottom .wrap .right .code1{
+    position: absolute;
+    width: 100px;
+    height: 134px;
+    text-align: center;
+    top:45px;
+    right: 0px;
+}
+
+.bottom .wrap .right .code1 span{
+    color: #fff;
+    font-family: "Miscroft Yahei";
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.bottom .wrap .right .phone{
+    position: absolute;
+    width: 264px;
+    height: 59px;
+    top:44px;
+    right: 0px;
+    overflow: hidden;
+}
+
+.bottom .wrap .right .phone .pic{
+    float: left;
+}
+
+.bottom .wrap .right .phone .text1{
+    margin-top: 5px;
+    margin-left:9px;
+    float: left;
+    color: #fff;
+    font-family: "Miscroft Yahei";
+}
+.bottom .wrap .right .phone .text1 span{
+    display: block;
+}
+
+.bottom .wrap .right .phone .text1 span:first-child{
+    margin-bottom: 5px;
+}
+
+.bottom .wrap .right .email{
+    position: absolute;
+    width: 264px;
+    height: 59px;
+    right: 0px;
+    top:112px;
+    overflow: hidden;
+}
+
+.bottom .wrap .right .email .pic{
+    float: left;
+}
+
+.bottom .wrap .right .email .text1{
+    margin-top: 5px;
+    margin-left: 8px;
+    float: left;
+    color: #fff;
+    font-family: "Miscroft Yahei";
+}
+
+.bottom .wrap .right .email .text1 span{
+    display: block;
+}
+
+.bottom .wrap .right .email .text1 span:first-child{
+    margin-bottom: 8px;
+}

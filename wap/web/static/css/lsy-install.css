@@ -1,0 +1,68 @@
+/*安装反馈---已核对*/
+.sy-feedback,.sy-unchecked{padding: 10px 4% 0;}
+.sy-feedback .title,.sy-unchecked .title{ height: 35px; line-height: 35px; text-align: center; background: #e6e6e6; color: #333;}
+.sy-feedback .content { padding-top: 10px;}
+.sy-feedback .content table{width:100%;border-collapse:collapse;}
+.sy-feedback .content table td{}
+.sy-feedback .content table td p{ line-height: 25px; padding: 5px 0;} 
+.sy-feedback .content table td:last-child{ color: #808080; width: 70%;}
+
+.sy-part-two,.sy-part-three{ padding-top: 10px;}
+.sy-part-two .pt-title,.sy-part-three .pt-title{ font-size: 14px; color: #333;}
+.sy-part-two .imgtu{ width: 43%; position: relative;}
+.sy-part-two .imgtu img{width: 100%}
+.sy-part-two .imgtu .imgspace{ width: 100%; height:1px; overflow: hidden;}
+.sy-part-two .img{ position: absolute; left: 0; top: 0; overflow: hidden; width: 100%; height: 100%;}
+.sy-part-two .img img{overflow: hidden;text-align: center;width: 100%;height: 100%;}
+
+.sy-part-three .content{position: relative;}
+.sy-part-three .swiper-slide{ width: 43%;padding-right: 10px;}
+.sy-part-three .swiper-slide img{ width: 100%;}
+.sy-part-three .mask{ position: absolute; width: 10%; height: 100%; background: rgba(255,255,255,0.3); right: 0; top: 0; z-index: 4;}
+.sy-feedback-btn{ margin:20px 13.8%; width: 72.4%; border: 0px; height: 44px; line-height: 44px; background: #ed8102; color: #fff; font-size: 16px; display: block;text-align: center;}
+.sy-feedback-btn_hui{ margin:20px 13.8%; width: 72.4%; border: 0px; height: 44px; line-height: 44px; background: #e6e6e6; color: #333; font-size: 16px; display: block;text-align: center;}
+
+
+
+/*安装反馈---信息输入*/
+.sy-unchecked{}
+.sy-fillin-infor{ font-size: 14px; padding: 10px 5px 0;}
+.sy-fillin-infor .name{ padding: 10px 0;}
+.sy-fillin-infor .name p{ padding-bottom: 10px;}
+.sy-fillin-infor .name input{ border-bottom: 1px solid #333; width: 100%;padding: 10px 0; font-size: 13px;}
+.sy-fillin-infor .name input::-webkit-input-placeholder { /* WebKit browsers */ font-size: 14px; }
+.sy-fillin-infor .name input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ font-size: 14px; } 
+.sy-fillin-infor .name input::-moz-placeholder { /* Mozilla Firefox 19+ */ font-size: 14px; } 
+.sy-sendyzm{border-bottom: 1px solid #333;}
+.sy-sendyzm input[type="text"]{ border-bottom: none !important; width: 60% !important;}
+.sy-sendyzm input[type="button"]{ color: #ea9061;width: 33% !important; background:none; padding: 10px 0; border: none; float: right; text-align: right;}
+.sy-fillin-infor .tip{ color: #e32929; text-align: center; padding: 5px 0; visibility: hidden; }
+/*上传图片*/
+.sy-uploadimg{ padding-top: 10px;}
+.sy-uploadimg .tit{ color: #808080; font-size: 14px; text-align: center; padding: 5px 0;}
+.sy-up-list{ padding: 7px 0; overflow: hidden;}
+.sy-up-list .upload{ width: 43.5%; border: 1px solid #e6e6e6; position: relative; float: left;}
+.sy-up-list .upload .imgspace{ width: 100%; height:auto; overflow: hidden;}
+.sy-up-list .upload .addimg{ width: 100%; height: 100%; position: absolute; left: 0; top: 0;}
+.sy-up-list .upload .Upload-imginput{width: 100%;height: 100%;position: absolute;left: 0;top: 0;opacity: 0;}
+.sy-up-list .upload .loadimg{ background: #fff; display: none; width: 50px; height: 50px; position: absolute; left: 50%; top: 50%; margin-left: -25px;margin-top: -25px;}
+.sy-up-list .detail{ width: 50%; float: right;}
+.sy-up-list .detail .number{ color: #333; font-size: 14px;}
+.sy-up-list .detail .sy_gg_scan{border-bottom: 1px solid #333; position: relative;}
+.sy-up-list .detail textarea{ border: none; color:#333;resize:none; width:65%; padding: 5px 0;box-sizing: border-box;}
+.sy-up-list .detail .sy_gg_scan .scaning{ display: inline-block; background:#ea9061; text-align: center; color: #fff; position: absolute; right: 0; bottom:1px; border-radius:5px; width: 32%; padding: 3px 0;}
+
+.sy-up-list .detail .tip{ text-align: center; padding: 5px 0; color: #e32929;visibility: hidden;}
+.sy-up-list .detail .scan-code{ text-align: center; padding-top: 5px;}
+.sy-up-list .detail .scan-code a{ background: #6378f5; color: #fff; padding:2px 5px;}
+
+.sy-installed{ width: 72.6%; height: 44px; border: none; background: #ed8102; color: #fff; font-size: 18px; margin:20px 13.7%;}
+.sy-installed-ts{ width: 40%; height: 30px; line-height: 30px; text-align: center; background: rgba(0,0,0,0.3); color: #fff; position: fixed;
+left: 50%; top: 50%; margin-left: -20%; margin-top: -15px; border-radius:5px; font-size: 14px; display: none;}
+
+/*未通过原因*/
+.sy_wtgyy{ line-height: 23px; padding: 30px 5px 10px; display: none;}
+.sy_wtgyy cite{ color: #c03; font-style: normal;}
+
+
+

@@ -1,0 +1,20 @@
+{
+    "require": {
+        "yiisoft/yii2-debug": "^2.0",
+        "lspbupt/yii2-jpush": "*",
+        "xplqcloud/cos": "^0.1.2",
+        "xplalipay/alipay": "^0.1.0",
+        "xplwechat/weixin": "^0.1.0",
+        "mito/yii2-sentry": "~1.0.0",
+        "yiisoft/yii2-mongodb": "^2.1"
+    },
+    "require-dev": {
+        "yiisoft/yii2-gii": "^2.0"
+    },
+  "repositories" : {
+      "packagist" : {
+            "type": "composer",
+            "url": "https://php.cnpkg.org"
+        }
+  }
+}

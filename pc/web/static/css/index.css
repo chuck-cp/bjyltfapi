@@ -1,0 +1,943 @@
+ html,body{
+	/*position: relative;*/
+} 
+.top{
+	width: 100%;
+	min-width: 1200px;
+	height: 90px;
+	background-color: #1e2c3f;
+	position: fixed;
+	z-index: 101;
+
+}
+@media screen and (max-width: 1200px){
+	.top{
+		width: 1200px;
+	}
+}
+ @media screen and (max-width: 1200px){
+	.cooperation{
+		width: 1200px;
+	}
+} 
+ .top .wrap{
+	margin: 0 auto;
+	width: 1200px;
+	height: 100%;
+	overflow:hidden;
+	 min-width: 1200px;
+}
+
+.top .wrap .left{
+	float: left;
+	height: 100%;
+}
+
+ .top .wrap .left *{
+	 line-height: 90px;
+	 vertical-align: middle;
+ }
+.top .wrap .left .logo{
+	width: 229px;
+	height: 60px;
+}
+.top .wrap .left .phone{
+	/*width: 37px;
+	height: 39px;*/
+	margin:0px 5px 0px 10px;
+}
+.top .wrap .left span{
+	font-family: 'Miscroft Yahei';
+	font-size: 28px;
+	color: #e76d06;
+}
+
+.top .wrap .right{
+	float: right;
+	height: 100%;
+}
+.top .wrap .right ul{
+	width: 100%;
+	height: 45px;
+	list-style: none;
+	margin-top: 48px;
+}
+.top .wrap .right ul li{
+	float: left;
+	width: 100px;
+	height: 45px;
+	text-align: center;
+	cursor: pointer;
+}
+.top .wrap .right ul li a{
+	display: block;
+	text-decoration: none;
+	font-family: 'Miscroft Yahei';
+	font-size: 18px;
+	color: #fff;
+}
+.top .wrap .right ul li .active{
+	display: block;
+	width: 100px;
+	height: 3px;
+	margin-top:21px;
+	background-color: #e76d06;
+}
+
+.empty{
+	width: 100%;
+	height: 90px;
+}
+.banner{
+	width: 100%;
+	min-width: 1200px;
+	height: 580px;
+	background: url('../image/a_02.png') center no-repeat;
+	position: relative;
+}
+
+@media screen and (max-width: 1200px){
+	.banner{
+		width: 1200px;
+	}
+}
+
+.banner .wrap{
+	width: 1200px;
+	position: relative;
+	margin: 0 auto;
+	height: 580px;
+}
+
+ .banner .wrap .text{
+	 position: absolute;
+	 left: 45px;
+	 top: 97px;
+	 width: 522px;
+	 height: 390px;
+ }
+
+ .banner .wrap .text .title1{
+	 width: 50%;
+	 font-family: 'Miscroft Yahei';
+	 font-size: 43.24px;
+	 color: #fff;
+	 text-align: justify;
+	 text-justify: inter-ideograph;
+	 text-align-last:justify;
+ }
+
+ .banner .wrap .text .title2{
+	 margin-top: 15px;
+	 width: 100%;
+	 font-family: 'Miscroft Yahei';
+	 font-size: 72.07px;
+	 font-weight: bold;
+	 color: #fff;
+ }
+
+ .banner .wrap .text .content{
+	 font-family: 'Miscroft Yahei';
+	 font-size: 18px;
+	 color: #fff;
+	 text-indent: 2em;
+	 letter-spacing: 1px;
+	 line-height: 28px;
+	 text-align: justify;
+ }
+
+ .banner .wrap .text .content .first{
+	margin-top: 33px;
+	 text-indent: 0em;
+ }
+
+@media screen and (max-width: 1200px){
+	.banner{
+		width: 1200px;
+	}
+}
+
+
+.cooperation{
+	width: 100%;
+	height: 730px;
+	position: relative;
+}
+
+.cooperation .wrap{
+	width: 1200px;
+	margin:0 auto;
+}
+.cooperation .wrap .title{
+	position: relative;
+	width: 100%;
+	height: 224px;
+}
+
+ .cooperation .wrap .title .welcom{
+	padding-top: 63px;
+	 text-align: center;
+ }
+
+.cooperation .wrap .title .desc{
+	margin-top: 40px;
+	text-align: center;
+	font-family: 'Miscroft Yahei';
+	font-size: 30px;
+	color: #333;
+	font-weight: bold;
+
+}
+
+ .cooperation .wrap .title .line{
+	 margin: 12px auto 0px;
+	 width: 60px;
+	 height: 6px;
+	 background-color: #ed8202;
+ }
+
+.cooperation .wrap .way{
+	width: 100%;
+	height: 506px;
+	overflow: hidden;
+}
+
+.cooperation .wrap .way div{
+	float: left;
+	position: relative;
+	width: 360px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.cooperation .wrap .way .way1{
+	margin-left: 20px;
+}
+
+ .cooperation .wrap .way .way1 .text1{
+	text-align: center;
+	 font-weight: bold;
+	 font-size: 20px;
+	 color: #333;
+	 font-family: 'Miscroft Yahei';
+ }
+
+ .cooperation .wrap .way .way1 .pic{
+	 position: relative;
+	 width: 360px;
+	 height: 180px;
+	 background: url('../image/a_05.png') no-repeat;
+	 background-size: 100% 100%;
+ }
+
+ .cooperation .wrap .way .way1 .pic img{
+	position: absolute;
+	 left: 30px;
+	 top: 40px;
+ }
+
+ .cooperation .wrap .way .way1 .pic .span1{
+	 position: absolute;
+	 left: 144px;
+	 top: 54px;
+	 font-weight: bold;
+	 font-size: 18px;
+	 color: #fff;
+	 font-family: 'Miscroft Yahei';
+	 letter-spacing: 1px;
+ }
+
+ .cooperation .wrap .way .way1 .pic .span2{
+	 position: absolute;
+	 left: 144px;
+	 top: 80px;
+	 font-weight: bold;
+	 font-size: 18px;
+	 color: #fff;
+	 font-family: 'Miscroft Yahei';
+	 letter-spacing: 1px;
+ }
+
+ .cooperation .wrap .way .way1 .bot{
+	 position: relative;
+	 margin-top: 20px;
+	 width: 360px;
+	 height: 460px;
+	 box-sizing: border-box;
+	 border-left: 1px solid #ddd;
+	 border-right: 1px solid #ddd;
+	 border-bottom: 1px solid #ddd;
+
+ }
+
+ .cooperation .wrap .way .way1 .bot:hover{
+	 width: 353px;
+	 cursor: pointer;
+	 box-shadow: 3px 3px 6px rgba(15,45,81,.3);
+ }
+
+ .cooperation .wrap .way .way1 .text2{
+	 margin: 22px 0px 0px 10px;
+	 font-family: 'Miscroft Yahei';
+	 font-size: 20px;
+	 color: #ed8202;
+	 font-weight: bold;
+ }
+
+ .cooperation .wrap .way .way1 .text3{
+	 padding: 13px 0px 0px 10px;
+	 width: 340px;
+	 font-family: 'Miscroft Yahei';
+	 font-size: 18px;
+	 color: #333;
+	 line-height: 25px;
+	 letter-spacing: 2px;
+	 text-align: justify;
+ }
+
+
+ .cooperation .wrap .way .way1 .desc{
+	 position: absolute;
+	 left: 0px;
+	 bottom: 14px;
+	/* -moz-margin-top:89px;
+	 margin-top: 109px;*/
+ }
+ .cooperation .wrap .way .way1 .desc a{
+	 text-decoration: none;
+	 display: block;
+	 width: 60px;
+	 height: 24px;
+	 background: url('../image/btn_05.png') no-repeat;
+	 background-size: 100% 100%;
+	 color: #1a6cb6;
+	 font-family: 'Miscroft Yahei';
+	 font-size: 16px;
+	 text-align: center;
+	 line-height: 24px;
+	 letter-spacing: 1px;
+	 margin-left: 13px;
+ }
+
+ .cooperation .wrap .way .way1 .desc a:hover{
+	 background: url('../image/btn_03.png') no-repeat;
+	 background-size: 100% 100%;
+	 color: #fefefe
+ }
+
+.cooperation .wrap .way .way2{
+	margin: 0px 40px;
+}
+ .cooperation .wrap .way .way2 .text1{
+	 text-align: center;
+	 font-weight: bold;
+	 font-size: 20px;
+	 color: #333;
+	 font-family: 'Miscroft Yahei';
+ }
+
+ .cooperation .wrap .way .way2 .pic{
+	 position: relative;
+	 width: 360px;
+	 height: 180px;
+	 background: url('../image/a_07.png') no-repeat;
+	 background-size: 100% 100%;
+ }
+
+ .cooperation .wrap .way .way2 .pic img{
+	 position: absolute;
+	 left: 30px;
+	 top: 40px;
+ }
+
+ .cooperation .wrap .way .way2 .pic .span1{
+	 position: absolute;
+	 left: 144px;
+	 top: 54px;
+	 font-weight: bold;
+	 font-size: 18px;
+	 color: #fff;
+	 font-family: 'Miscroft Yahei';
+	 letter-spacing: 1px;
+ }
+
+ .cooperation .wrap .way .way2 .pic .span2{
+	 position: absolute;
+	 left: 144px;
+	 top: 80px;
+	 font-weight: bold;
+	 font-size: 18px;
+	 color: #fff;
+	 font-family: 'Miscroft Yahei';
+	 letter-spacing: 1px;
+ }
+
+ .cooperation .wrap .way .way2 .bot{
+	 margin-top: 20px;
+	 width: 360px;
+	 height: 460px;
+	 box-sizing: border-box;
+	 border-left: 1px solid #ddd;
+	 border-right: 1px solid #ddd;
+	 border-bottom: 1px solid #ddd;
+ }
+
+ .cooperation .wrap .way .way2 .bot:hover{
+	 width: 353px;
+	 cursor: pointer;
+	 box-shadow: 3px 3px 6px rgba(15,45,81,.3);
+ }
+
+ .cooperation .wrap .way .way2 .text2{
+	 margin: 22px 0px 0px 10px;
+	 font-family: 'Miscroft Yahei';
+	 font-size: 20px;
+	 color: #ed8202;
+	 font-weight: bold;
+
+ }
+
+ .cooperation .wrap .way .way2 .text3{
+	 margin: 13px 0px 0px 10px;
+	 width: 340px;
+	 font-family: 'Miscroft Yahei';
+	 font-size: 18px;
+	 color: #333;
+	 line-height: 25px;
+	 letter-spacing: 2px;
+	 text-align: justify;
+ }
+
+ .cooperation .wrap .way .way2 .desc{
+	 margin-top: 60px;
+ }
+ .cooperation .wrap .way .way2 .desc a{
+	 text-decoration: none;
+	 display: block;
+	 width: 60px;
+	 height: 24px;
+	 background: url('../image/btn_05.png') no-repeat;
+	 background-size: 100% 100%;
+	 color: #1a6cb6;
+	 font-family: 'Miscroft Yahei';
+	 font-size: 16px;
+	 text-align: center;
+	 line-height: 24px;
+	 letter-spacing: 1px;
+	 margin-left: 13px;
+ }
+
+ .cooperation .wrap .way .way2 .desc a:hover{
+	 background: url('../image/btn_03.png') no-repeat;
+	 background-size: 100% 100%;
+	 color: #fefefe
+ }
+
+ .cooperation .wrap .way .way3 .text1{
+	 text-align: center;
+	 font-weight: bold;
+	 font-size: 20px;
+	 color: #333;
+	 font-family: 'Miscroft Yahei';
+ }
+
+ .cooperation .wrap .way .way3 .pic{
+	 position: relative;
+	 width: 360px;
+	 height: 180px;
+	 background: url('../image/a_09.png') no-repeat;
+	 background-size: 100% 100%;
+ }
+
+ .cooperation .wrap .way .way3 .pic img{
+	 position: absolute;
+	 left: 30px;
+	 top: 40px;
+ }
+
+ .cooperation .wrap .way .way3 .pic .span1{
+	 position: absolute;
+	 left: 144px;
+	 top: 54px;
+	 font-weight: bold;
+	 font-size: 18px;
+	 color: #fff;
+	 font-family: 'Miscroft Yahei';
+	 letter-spacing: 1px;
+ }
+
+ .cooperation .wrap .way .way3 .pic .span2{
+	 position: absolute;
+	 left: 144px;
+	 top: 80px;
+	 font-weight: bold;
+	 font-size: 18px;
+	 color: #fff;
+	 font-family: 'Miscroft Yahei';
+	 letter-spacing: 1px;
+ }
+
+ .cooperation .wrap .way .way3 .bot{
+	 margin-top: 20px;
+	 width: 360px;
+	 height: 460px;
+	 box-sizing: border-box;
+	 border-left: 1px solid #ddd;
+	 border-right: 1px solid #ddd;
+	 border-bottom: 1px solid #ddd;
+ }
+
+ .cooperation .wrap .way .way3 .bot:hover{
+	 width: 353px;
+	 cursor: pointer;
+	 box-shadow: 3px 3px 6px rgba(15,45,81,.3);
+ }
+
+ .cooperation .wrap .way .way3 .desc a:hover{
+	 background: url('../image/btn_03.png') no-repeat;
+	 background-size: 100% 100%;
+	 color: #fefefe
+ }
+
+ .cooperation .wrap .way .way3 .text2{
+	 margin: 22px 0px 0px 10px;
+	 font-family: 'Miscroft Yahei';
+	 font-size: 20px;
+	 color: #ed8202;
+	 font-weight: bold;
+ }
+
+ .cooperation .wrap .way .way3 .text3{
+	 margin: 13px 0px 0px 10px;
+	 width: 340px;
+	 font-family: 'Miscroft Yahei';
+	 font-size: 18px;
+	 color: #333;
+	 line-height: 25px;
+	 letter-spacing: 1px;
+	 text-align: justify;
+ }
+
+ .cooperation .wrap .way .way3 .desc{
+	 margin-top: 112px;
+ }
+ .cooperation .wrap .way .way3 .desc a{
+	 text-decoration: none;
+	 display: block;
+	 width: 60px;
+	 height: 24px;
+	 background: url('../image/btn_05.png') no-repeat;
+	 background-size: 100% 100%;
+	 color: #1a6cb6;
+	 font-family: 'Miscroft Yahei';
+	 font-size: 16px;
+	 text-align: center;
+	 line-height: 24px;
+	 letter-spacing: 1px;
+	 margin-left: 13px;
+ }
+
+
+.about{
+	width: 100%;
+	height: 1080px;
+	position: relative;
+}
+
+@media screen and (max-width: 1200px){
+	.about{
+		width: 1200px;
+	}
+}
+
+.about .wrap{
+	width: 1200px;
+	margin:0 auto;
+}
+.about .wrap .title{
+	width: 100%;
+	height: 180px;
+	text-align:center;
+}
+
+ .about .wrap .title .desc{
+	 padding-top: 85px;
+	 text-align: center;
+	 font-family: 'Miscroft Yahei';
+	 font-size: 30px;
+	 color: #333;
+	 font-weight: bold;
+ }
+
+.about .wrap .title .line{
+	margin: 12px auto 0px;
+	width: 60px;
+	height: 6px;
+	background-color: #ed8202;
+}
+
+.about .wrap .main{
+	width: 100%;
+	height: 900px;
+	overflow: hidden;
+}
+.about .wrap .main div{
+	float: left;
+	width: 600px;
+	height: 300px;
+}
+.about .wrap .main .text1{
+	position: relative;
+}
+
+ .about .wrap .main .text1 img{
+	 position: absolute;
+	 left: 40px;
+	 top: 30px;
+ }
+
+ .about .wrap .main .text1 .title3{
+	 position: absolute;
+	 left: 48px;
+	 top: 38px;
+	 font-family: "Miscroft Yahei";
+	 font-weight: bold;
+	 color: #fff;
+	 font-size: 24px;
+	 letter-spacing: 2px;
+ }
+
+ .about .wrap .main .text1 .desc{
+	 position: absolute;
+	 left: 40px;
+	 top: 95px;
+	 text-indent: 2em;
+	 line-height: 28px;
+	 font-family: "Miscroft Yahei";
+	 color: #333;
+	 font-size: 18px;
+	 letter-spacing: 2px;
+	 text-align: justify;
+ }
+
+.about .wrap .main .text2{
+	position: relative;
+	background: #dbeeff;
+}
+
+ .about .wrap .main .text2 img{
+	 position: absolute;
+	 left: 40px;
+	 top: 60px;
+ }
+
+ .about .wrap .main .text2 .title3{
+	 position: absolute;
+	 left: 48px;
+	 top: 68px;
+	 font-family: "Miscroft Yahei";
+	 font-weight: bold;
+	 color: #fff;
+	 font-size: 24px;
+	 letter-spacing: 2px;
+ }
+
+ .about .wrap .main .text2 .desc{
+	 position: absolute;
+	 left: 40px;
+	 top: 127px;
+	 padding-right: 55px;
+	 text-indent: 2em;
+	 letter-spacing: 2px;
+	 line-height: 28px;
+	 font-family: "Miscroft Yahei";
+	 color: #333;
+	 font-size: 18px;
+	 text-align: justify;
+ }
+
+ .about .wrap .main .target{
+	 overflow: hidden;
+ }
+
+ .about .wrap .main .target .left{
+	 float: left;
+	 height: 153px;
+	 width: 200px;
+	 background: #dbeeff;
+ }
+
+ .about .wrap .main .target .right{
+	 float: left;
+	 width: 400px;
+	 height: 300px;
+ }
+
+ .about .wrap .main .text3{
+	 position: relative;
+ }
+
+ .about .wrap .main .text3 img{
+	 position: absolute;
+	 left: 40px;
+	 top: 63px;
+ }
+
+ .about .wrap .main .text3 .title3{
+	 position: absolute;
+	 left: 48px;
+	 top: 70px;
+	 font-family: "Miscroft Yahei";
+	 font-weight: bold;
+	 color: #fff;
+	 font-size: 24px;
+	 letter-spacing: 2px;
+ }
+
+ .about .wrap .main .text3 .desc{
+	 position: absolute;
+	 left: 40px;
+	 top: 130px;
+	 text-indent: 2em;
+	 letter-spacing: 2px;
+	 line-height: 28px;
+	 font-family: "Miscroft Yahei";
+	 color: #333;
+	 font-size: 18px;
+	 text-align: justify;
+ }
+
+ .case{
+	width: 100%;
+	height: 825px;
+	position: relative;
+}
+
+@media screen and (max-width: 1200px){
+	.case{
+		width: 1200px;
+	}
+}
+.case .wrap{
+	width: 1200px;
+	margin:0 auto;
+}
+
+.case .wrap .title{
+	position: relative;
+	width: 100%;
+	height: 208px;
+}
+
+ .case .wrap .title .desc{
+	 padding-top: 100px;
+	 text-align: center;
+	 font-family: 'Miscroft Yahei';
+	 font-size: 30px;
+	 color: #333;
+	 font-weight: bold;
+ }
+
+ .case .wrap .title .line{
+	 margin: 12px auto 0px;
+	 width: 60px;
+	 height: 6px;
+	 background-color: #ed8202;
+ }
+
+ .case .wrap .brand{
+	 width: 1200px;
+	 height: 615px;
+ }
+
+ .case .wrap .brand .list{
+	 margin-top: 16px;
+	 list-style: none;
+	 overflow: hidden;
+ }
+
+ .case .wrap .brand .list a{
+	 display: none;
+	 position: absolute;
+	 left: 0px;
+	 top: 0px;
+	 width: 186px;
+	 height: 110px;
+	 line-height: 110px;
+	 text-decoration: none;
+	 text-align: center;
+	 background-color: rgba(67,92,124,.8);
+	 filter:Alpha(opacity=80)\0;
+	 background-color: #435c7c\0;
+	 opacity: 0.8;
+	 color:#fff;
+	 font-family: "Miscroft Yahei";
+	 font-size: 28px;
+	 letter-spacing: 1px;
+ }
+
+ .case .wrap .brand .list img:hover + a{
+	 display: block;
+ }
+ .case .wrap .brand .list a:hover{
+	 display: block;
+ }
+/* .case .wrap .brand .list img:hover + a{
+	 cursor: pointer;
+	 display: block;
+ }*/
+
+ .case .wrap .brand .list1{
+	 margin-top: 0px;
+ }
+
+ .case .wrap .brand .list li{
+	 float: left;
+	 position: relative;
+	 margin-right: 16.8px;
+	 border: 1px solid #ddd;
+	 box-sizing: border-box;
+ }
+
+ .case .wrap .brand .list li:last-child{
+	 margin-right: 0px;
+ }
+
+ .case .wrap .brand .list .lastLi{
+	 margin-right: 0px;
+ }
+
+ .bottom{
+	width: 100%;
+	 min-width: 1200px;
+	height: 282px;
+	background-color: #1e2c3f;
+	overflow: hidden;
+	position: relative;
+}
+@media screen and (max-width: 1200px){
+	.bottom{
+		width: 1200px;
+	}
+}
+.bottom .wrap{
+	width: 1200px;
+	height: 212px;
+	margin:0 auto;
+}
+
+.bottom .wrap .left{
+	float: left;
+}
+.bottom .wrap .left img{
+	margin:40px 0px 10px 0px;
+}
+
+.bottom .wrap .left span{
+	display: block;
+	font-family: 'Miscroft Yahei';
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+}
+
+ .bottom .wrap .left a{
+	 color: #fff;
+	 text-decoration: none;
+	 font-family: 'Miscroft Yahei';
+	 font-size: 16px;
+
+ }
+.bottom .wrap .right{
+	float: right;
+	position: relative;
+}
+.bottom .wrap .right .code{
+	position: absolute;
+	width: 100px;
+	height: 134px;
+	text-align: center;
+	top:45px;
+	right: 160px;
+}
+
+.bottom .wrap .right .code span{
+	color: #fff;
+	font-family: "Miscroft Yahei";
+	font-size: 14px;
+}
+
+ .bottom .wrap .right .code1{
+	 position: absolute;
+	 width: 100px;
+	 height: 134px;
+	 text-align: center;
+	 top:45px;
+	 right: 0px;
+ }
+
+ .bottom .wrap .right .code1 span{
+	 color: #fff;
+	 font-family: "Miscroft Yahei";
+	 letter-spacing: 1px;
+	 font-size: 14px;
+ }
+
+.bottom .wrap .right .phone{
+	position: absolute;
+	width: 264px;
+	height: 59px;
+	top:44px;
+	right: 0px;
+	overflow: hidden;
+}
+
+.bottom .wrap .right .phone .pic{
+	float: left;
+}
+
+.bottom .wrap .right .phone .text1{
+	margin-top: 5px;
+	margin-left:9px;
+	float: left;
+	color: #fff;
+	font-family: "Miscroft Yahei";
+}
+.bottom .wrap .right .phone .text1 span{
+	display: block;
+}
+
+ .bottom .wrap .right .phone .text1 span:first-child{
+	 margin-bottom: 5px;
+ }
+
+.bottom .wrap .right .email{
+	position: absolute;
+	width: 264px;
+	height: 59px;
+	right: 0px;
+	top:112px;
+	overflow: hidden;
+}
+
+.bottom .wrap .right .email .pic{
+	float: left;
+}
+
+.bottom .wrap .right .email .text1{
+	margin-top: 5px;
+	margin-left: 8px;
+	float: left;
+	color: #fff;
+	font-family: "Miscroft Yahei";
+}
+
+.bottom .wrap .right .email .text1 span{
+	display: block;
+}
+
+ .bottom .wrap .right .email .text1 span:first-child{
+	 margin-bottom: 8px;
+ }
+ #wz_cooperation,#wz_about,#wz_case{ position: absolute; width: 100%; height: 1px; top:-90px}

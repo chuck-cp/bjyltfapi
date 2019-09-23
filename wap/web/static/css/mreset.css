@@ -1,0 +1,27 @@
+* {margin: 0;padding: 0 }
+table {border-collapse: collapse;border-spacing: 0}
+h1,h2,h3,h4,h5,h6 {font-size: 100%; font-weight: normal;}
+ul,ol,li {list-style: none}
+em,i {font-style: normal}
+img {border: 0;display:inline-block}
+input,img {vertical-align: middle; border:none; }
+a {color: #333;text-decoration: none;-webkit-tap-highlight-color:transparent;}
+input,button,textarea{-webkit-tap-highlight-color:transparent;outline: none;  }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body{font-size: 13px; color: #333;}
+p{ margin: 0; padding: 0;}
+.sy-body{padding: 0;min-width: 300PX;max-width: 640PX; margin: 0 auto;}
+/*边框问题*/
+.bdr-bottom {position: relative}
+.bdr-bottom:after {
+    height: 1px;
+    content: '';
+    width: 100%;
+    border-top: 1px solid #f0f0f0;
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+    transform: scaleY(0.5);
+    -webkit-transform: scaleY(0.5);
+    z-index: 10
+}
